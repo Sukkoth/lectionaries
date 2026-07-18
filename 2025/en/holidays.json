@@ -3,7 +3,7 @@
   "holidays": [
     {
       "date": "2025-01-01",
-      "title": "New Year's Day",
+      "name": "New Year's Day",
       "description": "",
       "type": "OTHER"
     }
