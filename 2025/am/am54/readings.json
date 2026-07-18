@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "readings": [
+    {
+      "date": "2025-01-01",
+      "order": 1,
+      "section": "OLD_TESTAMENT",
+      "reference": "Genesis 1:1-5",
+      "text": "በመጀመሪያ አምላክ ሰማይንና ምድርን ፈጠረ..."
+    },
+    {
+      "date": "2025-01-01",
+      "order": 2,
+      "section": "EPISTLE",
+      "reference": "Romans 1:1-7",
+      "text": "ጳውሎስ፣ የክርስቶስ ኢየሱስ ባሪያ..."
+    },
+    {
+      "date": "2025-01-01",
+      "order": 3,
+      "section": "GOSPEL",
+      "reference": "John 1:1-14",
+      "text": "በመጀመሪያ ቃል ነበረ..."
+    }
+  ]
+}
