@@ -1,0 +1,59 @@
+{
+  "manifestVersion": 1,
+  "published": "2026-07-18T00:00:00Z",
+  "years": [
+    {
+      "year": 2025,
+      "languages": [
+        {
+          "code": "en",
+          "name": "English",
+          "holidays": {
+            "version": 1,
+            "path": "2025/en/holidays.json"
+          },
+          "dayInfo": {
+            "version": 1,
+            "path": "2025/en/day-info.json"
+          },
+          "versions": [
+            {
+              "code": "niv",
+              "name": "New International Version",
+              "contentVersion": 1,
+              "path": "2025/en/niv/readings.json",
+              "metadata": {
+                "publisher": "Zondervan",
+                "license": "Fair"
+              }
+            }
+          ]
+        },
+        {
+          "code": "am",
+          "name": "አማርኛ",
+          "holidays": {
+            "version": 1,
+            "path": "2025/am/holidays.json"
+          },
+          "dayInfo": {
+            "version": 1,
+            "path": "2025/am/day-info.json"
+          },
+          "versions": [
+            {
+              "code": "am54",
+              "name": "Haile Selassie Amharic Bible",
+              "contentVersion": 1,
+              "path": "2025/am/am54/readings.json",
+              "metadata": {
+                "publisher": "Bible Society of Ethiopia",
+                "license": "Fair"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
