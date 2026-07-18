@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "holidays": [
+    {
+      "date": "2025-01-01",
+      "title": "New Year's Day",
+      "description": "",
+      "type": "OTHER"
+    }
+  ]
+}
