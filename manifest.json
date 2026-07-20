@@ -9,7 +9,7 @@
           "code": "en",
           "name": "English",
           "holidays": {
-            "version": 2,
+            "version": 3,
             "path": "2025/en/holidays.json"
           },
           "dayInfo": {
