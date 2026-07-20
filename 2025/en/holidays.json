@@ -6,6 +6,12 @@
       "name": "New Year's Day",
       "description": "",
       "type": "OTHER"
-    }
+    },
+    {
+      "date": "2025-01-02",
+      "name": "New Year Past",
+      "description": "This is celebrated world wide",
+      "type": "OTHER"
+    },
   ]
 }
