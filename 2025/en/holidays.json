@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "holidays": [
     {
       "date": "2025-01-01",
@@ -12,6 +12,6 @@
       "name": "New Year Past",
       "description": "This is celebrated world wide",
       "type": "OTHER"
-    },
+    }
   ]
 }
