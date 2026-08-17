@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "dayInfo": [
+    {
+      "date": "2026-09-11",
+      "title": "አዲስ ዓመት (እንቁጣጣሽ)",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2026-09-13",
+      "title": "ከሥላሴ በኋላ 12ኛ እሑድ",
+      "description": "ባልንጄራችንን ስለ መዉደድ",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "ከሥላሴ በኋላ 13ኛ እሑድ",
+      "description": "ምስጋና",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "የመስቀል በዓል",
+      "description": null,
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "ከሥላሴ በኋላ 15ኛ እሑድ",
+      "description": "ፈጣሪና ፍጥረቱ",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "ከሥላሴ በኋላ 16ኛ እሑድ",
+      "description": "መንፈሳዊ ነፃነት",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "ከሥላሴ በኋላ 17ኛ እሑድ",
+      "description": "ወደ ጌታ መቅረብ",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "ከሥላሴ በኋላ 18ኛ እሑድ",
+      "description": "ድል አድራጊው እምነት",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "የቤተ ክርስቲያን ተሐድሶ ቀን",
+      "description": "መዳን በጸጋ ብቻ ነው",
+      "seasonColor": null
+    },
+    {
+      "date": "2026-11-01",
+      "title": "ከሥላሴ በኋላ 19ኛ እሑድ",
+      "description": "በ ሥራ ተግቶ ሃብት ማፍራት",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "ከሥላሴ በኋላ 20ኛ እሑድ",
+      "description": "ስለ ይቅርታ አደራረግ",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "ከሥላሴ በኋላ 21ኛ እሑድ",
+      "description": "ለእግዚአብሔርና ለመሪዎች መታዘዝ",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "ከሥላሴ በኋላ 22ኛ እሑድ",
+      "description": "ትክሣኤና የዘላለም ሕይወት",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-29",
+      "title": "ከፍርድ እሑድ የሚቀድም እሑድ",
+      "description": "ተዘጋጅቶ መጠበቅ",
+      "seasonColor": "#F57F17"
+    },
+    {
+      "date": "2026-12-06",
+      "title": "የፍርድ እሑድ",
+      "description": "ስለ መጨረሻው ፍርድ",
+      "seasonColor": "#F57F17"
+    },
+    {
+      "date": "2026-12-13",
+      "title": "የመምጣቱ 1ኛ እሑድ",
+      "description": "የጌታ ወደ መቅደሱ መምጣቱ",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2026-12-20",
+      "title": "የመምጣቱ 2ኛ እሑድ",
+      "description": "የጌታ ወደ መንግሥቱ መምጣቱ",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2026-12-27",
+      "title": "የመምጣቱ 3ኛ እሑድ",
+      "description": "የመንገዱ ጠራጊዎች",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2027-01-03",
+      "title": "የመምጣቱ 4ኛ እሑድ",
+      "description": "የጌታ መምጣት ቀርቧል",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2027-01-07",
+      "title": "የጌታችን የኢየሱስ ክርስቶስ ልደት በዓል",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-10",
+      "title": "ከልደት በኋላ 1ኛ እሑድ",
+      "description": "የእግዚአብሔር ልጆች የሰላም ኑሮ",
+      "seasonColor": "#FBC02D"
+    },
+    {
+      "date": "2027-01-14",
+      "title": "የጌታ ግርዘት በዓል (የኢየሱስ ስም)",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-17",
+      "title": "ከልደት በኋላ 2ኛ እሑድ",
+      "description": "የምሥራቅ ጠቢባን መምጣት",
+      "seasonColor": "#FBC02D"
+    },
+    {
+      "date": "2027-01-19",
+      "title": "የጌታ የጥምቀት በዓል",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-24",
+      "title": "ከጥምቀት በኋላ 1ኛ እሑድ",
+      "description": "ወንጌልን ለዓለም ሁሉ ስለ ማድረስ",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-01-31",
+      "title": "ከጥምቀት በኋላ 2ኛ እሑድ",
+      "description": "ኢየሱስ ሕይወታችንን ይቀድሳል",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-07",
+      "title": "ከጥምቀት በኋላ 3ኛ እሑድ",
+      "description": "ኢየሱስ እምነታችንን ያጸናል",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-14",
+      "title": "ከጥምቀት በኋላ 4ኛ እሑድ",
+      "description": "ኢየሱስ በችግር ጊዜ ይረዳል",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-21",
+      "title": "ከዐቢይ ጾም የሚቀድም 3ኛ እሑድ",
+      "description": "ስለ እግዚአብሔር ጸጋ",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-02-28",
+      "title": "ከዐቢይ ጾም የሚቀድም 2ኛ እሑድ",
+      "description": "ስለ እግዚአብሔር ቃል",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-03-07",
+      "title": "ከዐቢይ ጾም የሚቀድም እሑድ (ዘወረደ)",
+      "description": "ስለ እግዚአብሔር ፍቅር",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-03-14",
+      "title": "የዐቢይ ጾም 1ኛ እሑድ",
+      "description": "ፈተናን መዋጋት",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-03-21",
+      "title": "የዐቢይ ጾም 2ኛ እሑድ (ምኵራብ)",
+      "description": "የእምነት መሠረት",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-03-28",
+      "title": "የዐቢይ ጾም 3ኛ እሑድ (መጻጉዕ)",
+      "description": "ከክፉ ኃይላት ጋር መዋጋት",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-04",
+      "title": "የዐቢይ ጾም 4ኛ እሑድ (ደብረ ዘይት)",
+      "description": "የሕይወት እንጀራ",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-11",
+      "title": "የዐቢይ ጾም 5ኛ እሑድ (ገብረ ኄር)",
+      "description": "አስታራቂአችን",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-18",
+      "title": "የዐቢይ ጾም 6ኛ እሑድ (ኒቆዲሞስ)",
+      "description": "ስለ አዲስ ሕይወት",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-25",
+      "title": "የዐቢይ ጾም 7ኛ እሑድ (ሆሣዕና)",
+      "description": "አዲስ ቃል ኪዳን",
+      "seasonColor": "#B71C1C"
+    },
+    {
+      "date": "2027-04-26",
+      "title": "የሕማማት ሰሞን ሰኞ",
+      "description": "የተሠቃየው ክርስቶስ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-27",
+      "title": "የሕማማት ሰሞን ማክሰኞ",
+      "description": "የተሠቃየው ክርስቶስ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-28",
+      "title": "የሕማማት ሰሞን ረቡዕ",
+      "description": "የተሠቃየው ክርስቶስ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-29",
+      "title": "የሕማማት ሰሞን ሐሙስ (ጸሎተ ሐሙስ)",
+      "description": "ቅዱስ እራት",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-30",
+      "title": "የስቅለት በዓል",
+      "description": "ኢየሱስ ተሰቀለ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-01",
+      "title": "የሕማማት ሰሞን ቅዳሜ",
+      "description": "ኢየሱስ ተቀበረ / ቅዱስ እራት",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-02",
+      "title": "የጌታ ትንሣኤ በዓል",
+      "description": "ኢየሱስ ተነሥቶአል",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-03",
+      "title": "የትንሣኤ ሰኞ",
+      "description": "ከሕያው ጌታ ጋር መገናኘት",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-09",
+      "title": "ከተንሣኤ በኋላ 1ኛ እሑድ",
+      "description": "የደኅንነታችን አብነት",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-16",
+      "title": "ከተንሣኤ በኋላ 2ኛ እሑድ",
+      "description": "ጌታ እረኛችን ነው",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-23",
+      "title": "ከተንሣኤ በኋላ 3ኛ እሑድ",
+      "description": "ሰማያዊ ቤታችንን መናፈቅ",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-30",
+      "title": "ከተንሣኤ በኋላ 4ኛ እሑድ",
+      "description": "ስለ ቅድስና መንገድ",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-06-06",
+      "title": "ከተንሣኤ በኋላ 5ኛ እሑድ",
+      "description": "ስለ ጸሎት",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-06-10",
+      "title": "የጌታ የዕርገት በዓል",
+      "description": "ኢየሱስ ክርስቶስ ወደ ሰማይ ዐረገ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-06-13",
+      "title": "ከዕርገት በኋላ ያለው እሑድ",
+      "description": "የመንፈስ ቅዱስ መምጣት ተስፋ",
+      "seasonColor": "#039BE5"
+    },
+    {
+      "date": "2027-06-20",
+      "title": "በዓለ ሃምሳ",
+      "description": "የመንፈስ ቅዱስ መፍሰስ",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-06-27",
+      "title": "ከበዓለ ሃምሳ በኋላ 1ኛ እሑድ",
+      "description": "የመንፈስ ቅዱስ ስጦታዎች",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-07-04",
+      "title": "ከበዓለ ሃምሳ በኋላ 2ኛ እሑድ",
+      "description": "የመንፈስ ፍሬና የሥጋ ሥራ",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-07-11",
+      "title": "የቅድስት ሥላሴ እሑድ",
+      "description": "አብ፣ ወልድ፣ መንፈስ ቅዱስ",
+      "seasonColor": "#FFAB00"
+    },
+    {
+      "date": "2027-07-18",
+      "title": "ከሥላሴ በኋላ 1ኛ እሑድ",
+      "description": "እግዚአብሔርን ወይም ዓለምን ስለ መምረጥ",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-07-25",
+      "title": "ከሥላሴ በኋላ 2ኛ እሑድ",
+      "description": "ወደ እግዚአብሔር መንግሥት ስለ መጠራት",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-01",
+      "title": "ከሥላሴ በኋላ 3ኛ እሑድ",
+      "description": "ስለ ቤተ ክርስቲያን አንድነት",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-08",
+      "title": "ከሥላሴ በኋላ 4ኛ እሑድ",
+      "description": "ጽድቅና ርኅራኄ",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-15",
+      "title": "ከሥላሴ በኋላ 5ኛ እሑድ",
+      "description": "ደቀ መዝሙር ሆኖ እስከ መጨረሻ መኖር",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-19",
+      "title": "የደብረ ታቦር በዓል",
+      "description": "ኢየሱስ ክብሩን ገለጠ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-08-22",
+      "title": "ከሥላሴ በኋላ 6ኛ እሑድ",
+      "description": "ስለ ፍቅር",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-29",
+      "title": "ከሥላሴ በኋላ 7ኛ እሑድ",
+      "description": "ለኃጢአት አለመገዛት",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-09-05",
+      "title": "የዓመቱ መጨረሻ እሑድ",
+      "description": "የኑዛዜ ቀን",
+      "seasonColor": "#2E7D32"
+    }
+  ]
+}

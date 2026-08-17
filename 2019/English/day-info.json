@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "dayInfo": [
+    {
+      "date": "2026-09-11",
+      "title": "New Year",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2026-09-13",
+      "title": "12th Sunday after Trinity",
+      "description": "Loving Our Neighbor",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "13th Sunday after Trinity",
+      "description": "Thanksgiving",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "Meskel",
+      "description": null,
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "15th Sunday after Trinity",
+      "description": "The Creator and His Creation",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "16th Sunday after Trinity",
+      "description": "Spiritual Freedom",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "17th Sunday after Trinity",
+      "description": "Drawing Near to the Lord",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "18th Sunday after Trinity",
+      "description": "The Victorious Faith",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Reformation Day",
+      "description": "Salvation is by Grace Alone",
+      "seasonColor": null
+    },
+    {
+      "date": "2026-11-01",
+      "title": "19th Sunday after Trinity",
+      "description": "Building Wealth Through Diligent Labor",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "20th Sunday after Trinity",
+      "description": "On Practicing Forgiveness",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "21st Sunday after Trinity",
+      "description": "Obedience to God and Leaders",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "22nd Sunday after Trinity",
+      "description": "Resurrection and Eternal Life",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-29",
+      "title": "Sunday Preceding Judgment Sunday",
+      "description": "Watchful Preparation",
+      "seasonColor": "#F57F17"
+    },
+    {
+      "date": "2026-12-06",
+      "title": "Judgment Sunday",
+      "description": "About the Final Judgment",
+      "seasonColor": "#F57F17"
+    },
+    {
+      "date": "2026-12-13",
+      "title": "1st Sunday of Advent",
+      "description": "The Lord's Coming to His Temple",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2026-12-20",
+      "title": "2nd Sunday of Advent",
+      "description": "The Lord's Coming into His Kingdom",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2026-12-27",
+      "title": "3rd Sunday of Advent",
+      "description": "The Way-Clearers",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2027-01-03",
+      "title": "4th Sunday of Advent",
+      "description": "The Coming of the Lord is Near",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2027-01-07",
+      "title": "Christmas",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-10",
+      "title": "1st Sunday after Christmas",
+      "description": "The Peaceful Life of God's Children",
+      "seasonColor": "#FBC02D"
+    },
+    {
+      "date": "2027-01-14",
+      "title": "Feast of Circumcision of the Lord",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-17",
+      "title": "2nd Sunday after Christmas",
+      "description": "Arrival of the Wise Men from the East",
+      "seasonColor": "#FBC02D"
+    },
+    {
+      "date": "2027-01-19",
+      "title": "Feast of the Baptism of the Lord (Timkat)",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-24",
+      "title": "1st Sunday after Epiphany",
+      "description": "Reaching the Whole World with the Gospel",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-01-31",
+      "title": "2nd Sunday after Epiphany",
+      "description": "Jesus Sanctifies Our Life",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-07",
+      "title": "3rd Sunday after Epiphany",
+      "description": "Jesus Strengthens Our Faith",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-14",
+      "title": "4th Sunday after Epiphany",
+      "description": "Jesus Helps in Times of Need",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-21",
+      "title": "3rd Sunday Before Great Lent",
+      "description": "About the Grace of God",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-02-28",
+      "title": "2nd Sunday Before Great Lent",
+      "description": "About the Word of God",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-03-07",
+      "title": "Sunday Before Great Lent",
+      "description": "About the Love of God",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-03-14",
+      "title": "1st Sunday of Great Lent",
+      "description": "Fighting Temptation",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-03-21",
+      "title": "2nd Sunday of Great Lent",
+      "description": "The Foundation of Faith",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-03-28",
+      "title": "3rd Sunday of Great Lent",
+      "description": "Fighting Against Evil Powers",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-04",
+      "title": "4th Sunday of Great Lent",
+      "description": "Bread of Life",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-11",
+      "title": "5th Sunday of Great Lent",
+      "description": "Our Reconciler",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-18",
+      "title": "6th Sunday of Great Lent",
+      "description": "About New Life",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-25",
+      "title": "7th Sunday of Great Lent",
+      "description": "New Covenant",
+      "seasonColor": "#B71C1C"
+    },
+    {
+      "date": "2027-04-26",
+      "title": "Holy Monday",
+      "description": "The Suffering Christ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-27",
+      "title": "Holy Tuesday",
+      "description": "The Suffering Christ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-28",
+      "title": "Holy Wednesday",
+      "description": "The Suffering Christ",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-29",
+      "title": "Maundy Thursday",
+      "description": "The Holy Supper",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-30",
+      "title": "Good Friday",
+      "description": "Jesus Was Crucified",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-01",
+      "title": "Holy Saturday",
+      "description": "Jesus Was Buried / The Holy Supper",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-02",
+      "title": "Feast of the Resurrection of the Lord (Fasika)",
+      "description": "Jesus Has Risen",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-03",
+      "title": "Easter Monday",
+      "description": "Encountering the Living Lord",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-09",
+      "title": "1st Sunday after Easter",
+      "description": "The Fulfillment of Our Salvation",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-16",
+      "title": "2nd Sunday after Easter",
+      "description": "The Lord is Our Shepherd",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-23",
+      "title": "3rd Sunday after Easter",
+      "description": "Longing for Our Heavenly Home",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-30",
+      "title": "4th Sunday after Easter",
+      "description": "On the Way of Holiness",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-06-06",
+      "title": "5th Sunday after Easter",
+      "description": "About Prayer",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-06-10",
+      "title": "Feast of the Ascension of the Lord",
+      "description": "Jesus Christ Ascended to Heaven",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-06-13",
+      "title": "Sunday after Ascension",
+      "description": "Promise of the Holy Spirit's Coming",
+      "seasonColor": "#039BE5"
+    },
+    {
+      "date": "2027-06-20",
+      "title": "Pentecost",
+      "description": "Outpouring of the Holy Spirit",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-06-27",
+      "title": "1st Sunday after Pentecost",
+      "description": "Gifts of the Holy Spirit",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-07-04",
+      "title": "2nd Sunday after Pentecost",
+      "description": "Fruit of the Spirit and Works of the Flesh",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-07-11",
+      "title": "Trinity Sunday",
+      "description": "Father, Son, and Holy Spirit",
+      "seasonColor": "#FFAB00"
+    },
+    {
+      "date": "2027-07-18",
+      "title": "1st Sunday after Trinity",
+      "description": "Choosing God or the World",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-07-25",
+      "title": "2nd Sunday after Trinity",
+      "description": "Being Called to the Kingdom of God",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-01",
+      "title": "3rd Sunday after Trinity",
+      "description": "On the Unity of the Church",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-08",
+      "title": "4th Sunday after Trinity",
+      "description": "Righteousness and Compassion",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-15",
+      "title": "5th Sunday after Trinity",
+      "description": "Living as a Disciple to the End",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-19",
+      "title": "Feast of Transfiguration",
+      "description": "Jesus Revealed His Glory",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-08-22",
+      "title": "6th Sunday after Trinity",
+      "description": "About Love",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-29",
+      "title": "7th Sunday after Trinity",
+      "description": "Not Submitting to Sin",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-09-05",
+      "title": "Year-End Sunday",
+      "description": "Day of Confession / Repentance",
+      "seasonColor": "#2E7D32"
+    }
+  ]
+}

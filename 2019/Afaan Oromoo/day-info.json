@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "dayInfo": [
+    {
+      "date": "2026-09-11",
+      "title": "Geddarama waggaa",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2026-09-13",
+      "title": "STB Sanbata Guddaa 12ffaa",
+      "description": "Waa'ee Namoota Jaallallachuu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "STB Sanbata Guddaa 13ffaa",
+      "description": "Galata",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "STB Sanbata Guddaa 14ffaa",
+      "description": "Ayyaana Masqalaa",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "STB Sanbata Guddaa 15ffaa",
+      "description": "Uumaa fi uumama Isaa",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "STB Sanbata Guddaa 16ffaa",
+      "description": "Birmadummaa Hafuuraa",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "STB Sanbata Guddaa 17ffaa",
+      "description": "Gara Gooftaatti Dhi'aachuu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "STB Sanbata Guddaa 18ffaa",
+      "description": "Amantii Isa Mo'aa",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Guyyaa Haareffama Waldaa Kristaanaa",
+      "description": "Ayyaana Qofaan Fayyine",
+      "seasonColor": null
+    },
+    {
+      "date": "2026-11-01",
+      "title": "STB Sanbata Guddaa 19ffaa",
+      "description": "Hojiitti Jabaachuudhaan Qabeenya Horachuu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "STB Sanbata Guddaa 20ffaa",
+      "description": "Waa'ee Dhiifama Gochuu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "STB Sanbata Guddaa 21ffaa",
+      "description": "Waaqayyoo fi Geggeessitootaaf Abboomamuu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "STB Sanbata Guddaa 22ffaa",
+      "description": "Du'aa Ka'uu fi Jireenya Bara Baraa",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2026-11-29",
+      "title": "SG Guyyaa Firdii Dursu",
+      "description": "Qophaa'anii Eeguu",
+      "seasonColor": "#F57F17"
+    },
+    {
+      "date": "2026-12-06",
+      "title": "SG Guyyaa Firdii",
+      "description": "Waa'ee Firdii Isa Dhumaa",
+      "seasonColor": "#F57F17"
+    },
+    {
+      "date": "2026-12-13",
+      "title": "Kan dhufaatii Isaatii SG 1ffaa",
+      "description": "Gooftaan Gara Mana Qulqullummaa Dhufuu Isaa",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2026-12-20",
+      "title": "Kan dhufaatii Isaatii SG 2ffaa",
+      "description": "Gooftaan Gara Mootummaa Isaa Dhufuu Isaa",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2026-12-27",
+      "title": "Kan Dhufaatii Isaatii SG 3ffaa",
+      "description": "Daandii Qopheessitoota",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2027-01-03",
+      "title": "Kan dhufaatii Isaatii SG 4ffaa",
+      "description": "Dhufaatiin Gooftichaa Dhi'aateera",
+      "seasonColor": "#6A1B9A"
+    },
+    {
+      "date": "2027-01-07",
+      "title": "Ayyaana Dhaloota Gooftaa",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-10",
+      "title": "Dhaloota Isaa Booda SG 1ffaa",
+      "description": "Nageenya Jireenya Ijoollee Waaqayyoo",
+      "seasonColor": "#FBC02D"
+    },
+    {
+      "date": "2027-01-14",
+      "title": "Ayyaana Dhagna Qabaa",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-17",
+      "title": "Dhaloota Isaa Booda SG 2ffaa",
+      "description": "Dhufaatii Oggeessota Gara Bahaa",
+      "seasonColor": "#FBC02D"
+    },
+    {
+      "date": "2027-01-19",
+      "title": "Ayyaana Cuuphamuu Yesus",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-01-24",
+      "title": "Cuuphaa Booda SG 1ffaa",
+      "description": "Wangeela Addunyaa Maraan Ga'uu",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-01-31",
+      "title": "Cuuphaa Booda SG 2ffaa",
+      "description": "Yesuus Jireenya Keenya Ni Qulqulleessa",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-07",
+      "title": "Cuuphaa Booda SG 3ffaa",
+      "description": "Yesuus Amantii Keenya Ni Jabeessa",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-14",
+      "title": "Cuuphaa Booda SG 4ffaa",
+      "description": "Yesuus Yeroo Rakkinaatti Nama Gargaara",
+      "seasonColor": "#0288D1"
+    },
+    {
+      "date": "2027-02-21",
+      "title": "SG Soomii Duraa Isa 3ffaa",
+      "description": "Waa'ee Ayyaana Waaqayyoo",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-02-28",
+      "title": "SG Soomii Duraa Isa 2ffaa",
+      "description": "Waa'ee Dubbii Waaqayyoo",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-03-07",
+      "title": "SG Jalqabamuu Soomii Isa Guddaa Dursu",
+      "description": "Waa'ee Jaalala Waaqayyoo",
+      "seasonColor": "#00695C"
+    },
+    {
+      "date": "2027-03-14",
+      "title": "SG 1ffaa Soomii Isa Guddaa",
+      "description": "Qoramsaan Loluu",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-03-21",
+      "title": "SG 2ffaa Soomii Isa Guddaa",
+      "description": "Amantii Jabaa",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-03-28",
+      "title": "SG 3ffaa Soomii Isa Guddaa",
+      "description": "Humnoota Hamootaan Loluu",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-04",
+      "title": "SG 4ffaa Soomii Isa Guddaa",
+      "description": "Buddeena Jireenyaa",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-11",
+      "title": "SG 5ffaa Soomii Isa Guddaa",
+      "description": "Araarsaa keeyya",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-18",
+      "title": "SG 6ffaa Soomii Isa Guddaa",
+      "description": "Waa'ee Hreenya Haaraa",
+      "seasonColor": "#4A148C"
+    },
+    {
+      "date": "2027-04-25",
+      "title": "SG 7ffaa Soomii Isa Guddaa",
+      "description": "Kakuu Haaraa",
+      "seasonColor": "#B71C1C"
+    },
+    {
+      "date": "2027-04-26",
+      "title": "Kristos Isa Dhiphate",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-27",
+      "title": "Kristos Isa dhiphate",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-28",
+      "title": "Kristos Isa Dhiphate",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-29",
+      "title": "Irbaata Gooftaa",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-04-30",
+      "title": "Ayyaana Fannoo",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-01",
+      "title": "Ayyaana Dafqaan Bulaa",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-02",
+      "title": "Ayyaana Du'aa Ka'uu",
+      "description": "Yesus Du'aa Ka'eera",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-03",
+      "title": "Wixata Du'aa Ka'uu",
+      "description": "Gooftaa Jiraataan Wal-Argnu",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-05-09",
+      "title": "Du'aa Ka'uu Booda SG 1ffaa",
+      "description": "Fayyinni keenyaa raawwatamuu isaa",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-16",
+      "title": "Du'aa Ka'uu Booda SG 2ffaa",
+      "description": "Gooftaan Tiksee Keenya",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-23",
+      "title": "Du'aa Ka'uu Booda SG 3ffaa",
+      "description": "Mana Keenya Waaqarraa Yaaduu",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-05-30",
+      "title": "Du'aa Ka'uu Booda SG 4ffaa",
+      "description": "Waa'ee Karaa Qajeelummaa",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-06-06",
+      "title": "Du'aa Ka'uu Booda SG 5ffaa",
+      "description": "Waa'ee Kadhannaa",
+      "seasonColor": "#FFD600"
+    },
+    {
+      "date": "2027-06-10",
+      "title": "Gara Waaqaatti Ol-Fudhatamuu Yesus",
+      "description": null,
+      "seasonColor": null
+    },
+    {
+      "date": "2027-06-13",
+      "title": "SG Ol Ba'uu Isa Booda",
+      "description": "Abdii Dhufaatii Hafuuraa Qulqulluu",
+      "seasonColor": "#039BE5"
+    },
+    {
+      "date": "2027-06-20",
+      "title": "Ayyaana Guyyaa 50ffaa",
+      "description": "Mul'achuu Hafuura Qulqulluu",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-06-27",
+      "title": "Guyyaa 50ffaa Booda SG 1ffaa",
+      "description": "Kennaawwan Hafuura Qulqulluu",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-07-04",
+      "title": "Guyyaa 50ffaa Booda SG 2ffaa",
+      "description": "Ija Hojii Hafuuraa fi Hojii Foonii",
+      "seasonColor": "#E65100"
+    },
+    {
+      "date": "2027-07-11",
+      "title": "SG ST Waaqayyo",
+      "description": "Abbaa, Ilma, Hafuura Qulqulluu",
+      "seasonColor": "#FFAB00"
+    },
+    {
+      "date": "2027-07-18",
+      "title": "STB Sanbata Guddaa 1ffaa",
+      "description": "Waaqayyoom Yookiis Biyya Lafaa Filachuu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-07-25",
+      "title": "STB Sanbata Guddaa 2ffaa",
+      "description": "Gara Mootummaa Waaqayootti Waamamuu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-01",
+      "title": "STB Sanbata Guddaa 3ffaa",
+      "description": "Waa'ee Tokkummaa Waldaa Kristaanhaa",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-08",
+      "title": "STB Sanbata Guddaa 4ffaa",
+      "description": "Qajeelummaa fi Oo'a",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-15",
+      "title": "STB Sanbata Guddaa 5ffaa",
+      "description": "Hanga Dhumaatti Duuka Buutuu Ta'anii Jiraachuu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-19",
+      "title": "Ayyaana Dabra Tabor",
+      "description": "Yesus Ulfina Isa Mul'ise",
+      "seasonColor": null
+    },
+    {
+      "date": "2027-08-22",
+      "title": "STB Sanbata Guddaa 6ffaa",
+      "description": "Waa'ee Jaalalaa",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-08-29",
+      "title": "STB Sanbata Guddaa 7ffaa",
+      "description": "Cubbuudhaaf Abboomamuu Diduu",
+      "seasonColor": "#2E7D32"
+    },
+    {
+      "date": "2027-09-05",
+      "title": "SG Dhuma Waggichaa",
+      "description": "Guyyaa Qalbi Jiirirannaa",
+      "seasonColor": "#2E7D32"
+    }
+  ]
+}
