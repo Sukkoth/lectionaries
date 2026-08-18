@@ -20,7 +20,7 @@
             {
               "code": "kitwoy",
               "name": "Kitaaba Woyyuu (Arsii)",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/Afaan Oromoo/kitwoy/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
@@ -30,7 +30,7 @@
             {
               "code": "nocv",
               "name": "ክታበ ቁልቁሉ፣ ሂካ አመያ ሃራ",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/Afaan Oromoo/nocv/readings.json",
               "metadata": {
                 "publisher": "Biblica, Inc.",
@@ -40,7 +40,7 @@
             {
               "code": "macqul",
               "name": "Macaafa Qulqulluu Afaan Oromoo",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/Afaan Oromoo/macqul/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
@@ -50,7 +50,7 @@
             {
               "code": "guj",
               "name": "Kitaaba Woyyicha (Guji)",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/Afaan Oromoo/guj/readings.json",
               "metadata": {
                 "publisher": "The Word for the World International",
@@ -74,7 +74,7 @@
             {
               "code": "esv",
               "name": "English Standard Version 2025",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/English/esv/readings.json",
               "metadata": {
                 "publisher": "Crossway / Good News Publishers",
@@ -84,7 +84,7 @@
             {
               "code": "niv",
               "name": "New International Version",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/English/niv/readings.json",
               "metadata": {
                 "publisher": "Biblica, Inc.",
@@ -108,7 +108,7 @@
             {
               "code": "xumats",
               "name": "Xummaanchu Matsaafa (Kambata)",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/Kambata/xumats/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
@@ -132,7 +132,7 @@
             {
               "code": "keeskita",
               "name": "Keesammi Kitaaba (Hadiya)",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/Hadiya/keeskita/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
@@ -156,7 +156,7 @@
             {
               "code": "qulmax",
               "name": "Qullaawa Maxaafa (Sidamo)",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/Sidamo/qulmax/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
@@ -180,7 +180,7 @@
             {
               "code": "nasv",
               "name": "አዲሱ መደበኛ ትርጒም",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/አማርኛ/nasv/readings.json",
               "metadata": {
                 "publisher": "Biblica, Inc.",
@@ -190,7 +190,7 @@
             {
               "code": "am54",
               "name": "መጽሐፍ ቅዱስ (የብሉይና የሐዲስ ኪዳን መጻሕፍት)",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/አማርኛ/am54/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
@@ -214,7 +214,7 @@
             {
               "code": "ትመ15",
               "name": "መፅሓፍ ቅዱስ (ትግርኛ)",
-              "contentVersion": 2,
+              "contentVersion": 1,
               "path": "2019/ትግርኛ/ትመ15/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
