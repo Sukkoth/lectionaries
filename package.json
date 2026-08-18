@@ -4,8 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "bun run index.ts",
-    "dev": "bun --watch run index.ts",
+    "start": "bun run ./dist/server.js",
+    "dev": "bun --watch run server.ts",
+    "build": "bun build ./server.ts --target bun --outdir ./dist",
     "test": "bun test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -22,5 +23,8 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "hono": "^4.13.3"
   }
 }
