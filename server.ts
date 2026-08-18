@@ -1,10 +1,9 @@
+import app from "./src/app";
 import { PORT } from "./src/config";
-import { handleRequest, routes } from "./src/routes";
 
-const server = Bun.serve({
+export const handleRequest = app.fetch;
+
+export default {
   port: PORT,
-  routes,
-  fetch: handleRequest,
-});
-
-export default server;
+  fetch: app.fetch,
+};

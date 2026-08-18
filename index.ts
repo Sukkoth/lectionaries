@@ -1,4 +1,4 @@
-import server from "./server";
+import server, { handleRequest } from "./server";
 
-export { handleRequest } from "./src/routes";
+export { handleRequest };
 export default server;
