@@ -1,29 +1,165 @@
 {
   "manifestVersion": 1,
-  "published": "2026-07-18T00:00:00Z",
+  "published": "2026-08-14T11:17:55.046Z",
   "years": [
     {
-      "year": 2025,
+      "year": 2019,
       "languages": [
+        {
+          "code": "om",
+          "name": "Afaan Oromoo",
+          "holidays": {
+            "version": 1,
+            "path": "2019/Afaan Oromoo/holidays.json"
+          },
+          "dayInfo": {
+            "version": 1,
+            "path": "2019/Afaan Oromoo/day-info.json"
+          },
+          "versions": [
+            {
+              "code": "kitwoy",
+              "name": "Kitaaba Woyyuu (Arsii)",
+              "contentVersion": 2,
+              "path": "2019/Afaan Oromoo/kitwoy/readings.json",
+              "metadata": {
+                "publisher": "Bible Society of Ethiopia",
+                "license": "Fair"
+              }
+            },
+            {
+              "code": "nocv",
+              "name": "ክታበ ቁልቁሉ፣ ሂካ አመያ ሃራ",
+              "contentVersion": 2,
+              "path": "2019/Afaan Oromoo/nocv/readings.json",
+              "metadata": {
+                "publisher": "Biblica, Inc.",
+                "license": "Fair"
+              }
+            },
+            {
+              "code": "macqul",
+              "name": "Macaafa Qulqulluu Afaan Oromoo",
+              "contentVersion": 2,
+              "path": "2019/Afaan Oromoo/macqul/readings.json",
+              "metadata": {
+                "publisher": "Bible Society of Ethiopia",
+                "license": "Fair"
+              }
+            },
+            {
+              "code": "guj",
+              "name": "Kitaaba Woyyicha (Guji)",
+              "contentVersion": 2,
+              "path": "2019/Afaan Oromoo/guj/readings.json",
+              "metadata": {
+                "publisher": "The Word for the World International",
+                "license": "Fair"
+              }
+            }
+          ]
+        },
         {
           "code": "en",
           "name": "English",
           "holidays": {
-            "version": 4,
-            "path": "2025/en/holidays.json"
+            "version": 1,
+            "path": "2019/English/holidays.json"
           },
           "dayInfo": {
             "version": 1,
-            "path": "2025/en/day-info.json"
+            "path": "2019/English/day-info.json"
           },
           "versions": [
             {
+              "code": "esv",
+              "name": "English Standard Version 2025",
+              "contentVersion": 2,
+              "path": "2019/English/esv/readings.json",
+              "metadata": {
+                "publisher": "Crossway / Good News Publishers",
+                "license": "Fair"
+              }
+            },
+            {
               "code": "niv",
               "name": "New International Version",
-              "contentVersion": 1,
-              "path": "2025/en/niv/readings.json",
+              "contentVersion": 2,
+              "path": "2019/English/niv/readings.json",
               "metadata": {
-                "publisher": "Zondervan",
+                "publisher": "Biblica, Inc.",
+                "license": "Fair"
+              }
+            }
+          ]
+        },
+        {
+          "code": "ktb",
+          "name": "Kambata",
+          "holidays": {
+            "version": 1,
+            "path": "2019/Kambata/holidays.json"
+          },
+          "dayInfo": {
+            "version": 1,
+            "path": "2019/Kambata/day-info.json"
+          },
+          "versions": [
+            {
+              "code": "xumats",
+              "name": "Xummaanchu Matsaafa (Kambata)",
+              "contentVersion": 2,
+              "path": "2019/Kambata/xumats/readings.json",
+              "metadata": {
+                "publisher": "Bible Society of Ethiopia",
+                "license": "Fair"
+              }
+            }
+          ]
+        },
+        {
+          "code": "hdy",
+          "name": "Hadiya",
+          "holidays": {
+            "version": 1,
+            "path": "2019/Hadiya/holidays.json"
+          },
+          "dayInfo": {
+            "version": 1,
+            "path": "2019/Hadiya/day-info.json"
+          },
+          "versions": [
+            {
+              "code": "keeskita",
+              "name": "Keesammi Kitaaba (Hadiya)",
+              "contentVersion": 2,
+              "path": "2019/Hadiya/keeskita/readings.json",
+              "metadata": {
+                "publisher": "Bible Society of Ethiopia",
+                "license": "Fair"
+              }
+            }
+          ]
+        },
+        {
+          "code": "sidamo",
+          "name": "Sidamo",
+          "holidays": {
+            "version": 1,
+            "path": "2019/Sidamo/holidays.json"
+          },
+          "dayInfo": {
+            "version": 1,
+            "path": "2019/Sidamo/day-info.json"
+          },
+          "versions": [
+            {
+              "code": "qulmax",
+              "name": "Qullaawa Maxaafa (Sidamo)",
+              "contentVersion": 2,
+              "path": "2019/Sidamo/qulmax/readings.json",
+              "metadata": {
+                "publisher": "Bible Society of Ethiopia",
                 "license": "Fair"
               }
             }
@@ -34,21 +170,55 @@
           "name": "አማርኛ",
           "holidays": {
             "version": 1,
-            "path": "2025/am/holidays.json"
+            "path": "2019/አማርኛ/holidays.json"
           },
           "dayInfo": {
             "version": 1,
-            "path": "2025/am/day-info.json"
+            "path": "2019/አማርኛ/day-info.json"
           },
           "versions": [
             {
+              "code": "nasv",
+              "name": "አዲሱ መደበኛ ትርጒም",
+              "contentVersion": 2,
+              "path": "2019/አማርኛ/nasv/readings.json",
+              "metadata": {
+                "publisher": "Biblica, Inc.",
+                "license": "Fair"
+              }
+            },
+            {
               "code": "am54",
-              "name": "Amharic Bible",
-              "contentVersion": 1,
-              "path": "2025/am/am54/readings.json",
+              "name": "መጽሐፍ ቅዱስ (የብሉይና የሐዲስ ኪዳን መጻሕፍት)",
+              "contentVersion": 2,
+              "path": "2019/አማርኛ/am54/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
-                "license": "Fair"
+                "license": "Public Domain"
+              }
+            }
+          ]
+        },
+        {
+          "code": "ትግርኛ",
+          "name": "ትግርኛ",
+          "holidays": {
+            "version": 1,
+            "path": "2019/ትግርኛ/holidays.json"
+          },
+          "dayInfo": {
+            "version": 1,
+            "path": "2019/ትግርኛ/day-info.json"
+          },
+          "versions": [
+            {
+              "code": "ትመ15",
+              "name": "መፅሓፍ ቅዱስ (ትግርኛ)",
+              "contentVersion": 2,
+              "path": "2019/ትግርኛ/ትመ15/readings.json",
+              "metadata": {
+                "publisher": "Bible Society of Ethiopia",
+                "license": "Public Domain"
               }
             }
           ]
