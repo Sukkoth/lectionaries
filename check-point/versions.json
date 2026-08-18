@@ -1,0 +1,8070 @@
+{
+  "kjv": {
+    "versionCode": "kjv",
+    "versionId": 1,
+    "versionName": "King James Version",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Gen"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Exod"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Lev"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Num"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Deut"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Josh"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Judg"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ruth"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1 Sam"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2 Sam"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1 Kgs"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2 Kgs"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1 Chr"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2 Chr"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Neh"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Esth"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalm",
+        "abbreviation": "Ps"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Prov"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Eccl"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Solomon",
+        "abbreviation": "Song"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Isa"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jer"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lam"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezek"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Dan"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hos"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joel"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Amos"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Obad"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jonah"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Mic"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nah"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Hab"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zeph"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Hag"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zech"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Mal"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Matt"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mark"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Luke"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "John"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Acts"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Rom"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1 Cor"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2 Cor"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Gal"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Eph"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Phil"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Col"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1 Thes"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2 Thes"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1 Tim"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2 Tim"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Titus"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Phlm"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Heb"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "Jas"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1 Pet"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2 Pet"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1 John"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2 John"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3 John"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Rev"
+      }
+    ]
+  },
+  "esv": {
+    "versionCode": "esv",
+    "versionId": 59,
+    "versionName": "English Standard Version",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Gen."
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Ex."
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Lev."
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Num."
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Deut."
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Josh."
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Judg."
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ruth"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1 Sam."
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2 Sam."
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1 Kgs."
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2 Kgs."
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1 Chr."
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2 Chr."
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Neh."
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Esth."
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalm",
+        "abbreviation": "Ps."
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Prov."
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Eccles."
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Solomon",
+        "abbreviation": "Song"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Isa."
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jer."
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lam."
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezek."
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Dan."
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hos."
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joel"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Amos"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Obad."
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jonah"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Mic."
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nah."
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Hab."
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zeph."
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Hag."
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zech."
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Mal."
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Matt."
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mark"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Luke"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "John"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Acts"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Rom."
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1 Cor."
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2 Cor."
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Gal."
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Eph."
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Phil."
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Col."
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1 Thess."
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2 Thess."
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1 Tim."
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2 Tim."
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Titus"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Philem."
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Heb."
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "James"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1 Pet."
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2 Pet."
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1 John"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2 John"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3 John"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Rev."
+      }
+    ]
+  },
+  "niv": {
+    "versionCode": "niv",
+    "versionId": 111,
+    "versionName": "New International Version",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Gen."
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Exodus"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Lev."
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Num."
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Deut."
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Joshua"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Judges"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ruth"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1 Samuel"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2 Samuel"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1 Kings"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2 Kings"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1 Chron."
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2 Chron."
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Neh."
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Esther"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalms",
+        "abbreviation": "Psalm"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Prov."
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Eccles."
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Songs",
+        "abbreviation": "Song of Songs"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Isaiah"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jer."
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lamentations"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezek."
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Daniel"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hosea"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joel"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Amos"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Obadiah"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jonah"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Micah"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nahum"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Hab."
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zephaniah"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Haggai"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zech."
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Mal."
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Matt."
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mark"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Luke"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "John"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Acts"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Romans"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1 Cor."
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2 Cor."
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Galatians"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Ephesians"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Phil."
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Colossians"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1 Thes."
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2 Thes."
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1 Tim."
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2 Tim."
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Titus"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Philemon"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Heb."
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "James"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1 Peter"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2 Peter"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1 John"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2 John"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3 John"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Revelation"
+      }
+    ]
+  },
+  "nkjv": {
+    "versionCode": "nkjv",
+    "versionId": 114,
+    "versionName": "New King James Version",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Ge"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Ex"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Le"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Nu"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "De"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Jos"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Jud"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ru"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "I Samuel",
+        "abbreviation": "1Sa"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "II Samuel",
+        "abbreviation": "2Sa"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "I Kings",
+        "abbreviation": "1Ki"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "II Kings",
+        "abbreviation": "2Ki"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "I Chronicles",
+        "abbreviation": "1Ch"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "II Chronicles",
+        "abbreviation": "2Ch"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezr"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Ne"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Es"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalms",
+        "abbreviation": "Ps"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Pr"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Ec"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Solomon",
+        "abbreviation": "So"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Isa"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jer"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "La"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Eze"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Da"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Ho"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joe"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Am"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Ob"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jon"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Mic"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Na"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Hab"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zep"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Hag"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zec"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Mal"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Mt"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mr"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Lu"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "Joh"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Ac"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Ro"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "I Corinthians",
+        "abbreviation": "1Co"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "II Corinthians",
+        "abbreviation": "2Co"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Ga"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Eph"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Php"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Col"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "I Thessalonians",
+        "abbreviation": "1Th"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "II Thessalonians",
+        "abbreviation": "2Th"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "I Timothy",
+        "abbreviation": "1Ti"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "II Timothy",
+        "abbreviation": "2Ti"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Tit"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Phm"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Heb"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "Jas"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "I Peter",
+        "abbreviation": "1Pe"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "II Peter",
+        "abbreviation": "2Pe"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "I John",
+        "abbreviation": "1Jo"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "II John",
+        "abbreviation": "2Jn"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "III John",
+        "abbreviation": "3Jo"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Rev"
+      }
+    ]
+  },
+  "nlt": {
+    "versionCode": "nlt",
+    "versionId": 116,
+    "versionName": "New Living Translation",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Genesis"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Exodus"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Leviticus"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Numbers"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Deuteronomy"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Joshua"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Judges"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ruth"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1 Samuel"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2 Samuel"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1 Kings"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2 Kings"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1 Chronicles"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2 Chronicles"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Nehemiah"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Esther"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalms",
+        "abbreviation": "Psalms"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Proverbs"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Ecclesiastes"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Songs",
+        "abbreviation": "Song of Songs"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Isaiah"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jeremiah"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lamentations"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezekiel"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Daniel"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hosea"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joel"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Amos"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Obadiah"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jonah"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Micah"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nahum"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Habakkuk"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zephaniah"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Haggai"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zechariah"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Malachi"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Matthew"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mark"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Luke"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "John"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts of the Apostles",
+        "abbreviation": "Acts of the Apostles"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Romans"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1 Corinthians"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2 Corinthians"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Galatians"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Ephesians"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Philippians"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Colossians"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1 Thessalonians"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2 Thessalonians"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1 Timothy"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2 Timothy"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Titus"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Philemon"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Hebrews"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "James"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1 Peter"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2 Peter"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1 John"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2 John"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3 John"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Revelation"
+      }
+    ]
+  },
+  "msg": {
+    "versionCode": "msg",
+    "versionId": 97,
+    "versionName": "The Message",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Genesis"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Exodus"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Leviticus"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Numbers"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Deuteronomy"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Joshua"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Judges"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ruth"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1 Samuel"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2 Samuel"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1 Kings"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2 Kings"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1 Chronicles"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2 Chronicles"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Nehemiah"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Esther"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalms",
+        "abbreviation": "Psalms"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Proverbs"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Ecclesiastes"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Songs",
+        "abbreviation": "Song of Songs"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Isaiah"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jeremiah"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lamentations"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezekiel"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Daniel"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hosea"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joel"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Amos"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Obadiah"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jonah"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Micah"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nahum"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Habakkuk"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zephaniah"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Haggai"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zechariah"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Malachi"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Matthew"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mark"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Luke"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "John"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Acts"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Romans"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1 Corinthians"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2 Corinthians"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Galatians"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Ephesians"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Philippians"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Colossians"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1 Thessalonians"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2 Thessalonians"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1 Timothy"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2 Timothy"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Titus"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Philemon"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Hebrews"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "James"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1 Peter"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2 Peter"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1 John"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2 John"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3 John"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Revelation"
+      }
+    ]
+  },
+  "net": {
+    "versionCode": "net",
+    "versionId": 107,
+    "versionName": "New English Translation",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Genesis"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Exodus"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Leviticus"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Numbers"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Deuteronomy"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Joshua"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Judges"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ruth"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1 Samuel"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2 Samuel"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1 Kings"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2 Kings"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1 Chronicles"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2 Chronicles"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Nehemiah"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Esther"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalms",
+        "abbreviation": "Psalms"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Proverbs"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Ecclesiastes"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Solomon",
+        "abbreviation": "Song of Solomon"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Isaiah"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jeremiah"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lamentations"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezekiel"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Daniel"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hosea"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joel"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Amos"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Obadiah"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jonah"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Micah"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nahum"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Habakkuk"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zephaniah"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Haggai"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zechariah"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Malachi"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Matthew"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mark"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Luke"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "John"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Acts"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Romans"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1 Corinthians"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2 Corinthians"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Galatians"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Ephesians"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Philippians"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Colossians"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1 Thessalonians"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2 Thessalonians"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1 Timothy"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2 Timothy"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Titus"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Philemon"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Hebrews"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "James"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1 Peter"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2 Peter"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1 John"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2 John"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3 John"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Revelation"
+      }
+    ]
+  },
+  "amp": {
+    "versionCode": "amp",
+    "versionId": 1588,
+    "versionName": "Amplified Bible",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Gen"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Ex"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Lev"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Num"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Deut"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Josh"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Judg"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ruth"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1 Sam"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2 Sam"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1 Kin"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2 Kin"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1 Chr"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2 Chr"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Neh"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Esth"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalms",
+        "abbreviation": "Ps"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Prov"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Eccl"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Solomon",
+        "abbreviation": "Song"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Is"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jer"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lam"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezek"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Dan"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hos"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joel"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Amos"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Obad"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jon"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Mic"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nah"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Hab"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zeph"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Hag"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zech"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Mal"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Matt"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mark"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Luke"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "John"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Acts"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Rom"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1 Cor"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2 Cor"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Gal"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Eph"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Phil"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Col"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1 Thess"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2 Thess"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1 Tim"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2 Tim"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Titus"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Philem"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Heb"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "James"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1 Pet"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2 Pet"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1 John"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2 John"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3 John"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Rev"
+      }
+    ]
+  },
+  "csb": {
+    "versionCode": "csb",
+    "versionId": 1713,
+    "versionName": "Christian Standard Bible",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Gn"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Ex"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Lv"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Nm"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Dt"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Jos"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Jdg"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ru"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1Sm"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2Sm"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1Kg"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2Kg"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1Ch"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2Ch"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezr"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Neh"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Est"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Jb"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalms",
+        "abbreviation": "Ps"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Pr"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Ec"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Songs",
+        "abbreviation": "Sg"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Is"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jr"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lm"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezk"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Dn"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hs"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Jl"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Am"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Ob"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jnh"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Mc"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nah"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Hab"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zph"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Hg"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zch"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Mal"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Mt"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mk"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Lk"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "Jn"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Ac"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Rm"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1Co"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2Co"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Gl"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Eph"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Php"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Col"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1Th"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2Th"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1Tm"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2Tm"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Ti"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Phm"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Heb"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "Jms"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1Pt"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2Pt"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1Jn"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2Jn"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3Jn"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jd"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Rv"
+      }
+    ]
+  },
+  "nasb2020": {
+    "versionCode": "nasb2020",
+    "versionId": 2692,
+    "versionName": "New American Standard Bible 2020",
+    "language": "eng",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Genesis",
+        "abbreviation": "Gen"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Exodus",
+        "abbreviation": "Ex"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leviticus",
+        "abbreviation": "Lev"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Numbers",
+        "abbreviation": "Num"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Deuteronomy",
+        "abbreviation": "Deut"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Joshua",
+        "abbreviation": "Josh"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Judges",
+        "abbreviation": "Judg"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruth",
+        "abbreviation": "Ruth"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Samuel",
+        "abbreviation": "1 Sam"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Samuel",
+        "abbreviation": "2 Sam"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Kings",
+        "abbreviation": "1 Kin"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Kings",
+        "abbreviation": "2 Kin"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Chronicles",
+        "abbreviation": "1 Chr"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Chronicles",
+        "abbreviation": "2 Chr"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Ezra",
+        "abbreviation": "Ezra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nehemiah",
+        "abbreviation": "Neh"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Esther",
+        "abbreviation": "Esth"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Job",
+        "abbreviation": "Job"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Psalm",
+        "abbreviation": "Ps"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Proverbs",
+        "abbreviation": "Prov"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Ecclesiastes",
+        "abbreviation": "Eccl"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Song of Solomon",
+        "abbreviation": "Song"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaiah",
+        "abbreviation": "Is"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Jeremiah",
+        "abbreviation": "Jer"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Lamentations",
+        "abbreviation": "Lam"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Ezekiel",
+        "abbreviation": "Ezek"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daniel",
+        "abbreviation": "Dan"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hosea",
+        "abbreviation": "Hos"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Joel",
+        "abbreviation": "Joel"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amos",
+        "abbreviation": "Amos"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obadiah",
+        "abbreviation": "Obad"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Jonah",
+        "abbreviation": "Jon"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Micah",
+        "abbreviation": "Mic"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Nahum",
+        "abbreviation": "Nah"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Habakkuk",
+        "abbreviation": "Hab"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Zephaniah",
+        "abbreviation": "Zeph"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haggai",
+        "abbreviation": "Hag"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zechariah",
+        "abbreviation": "Zech"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Malachi",
+        "abbreviation": "Mal"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Matthew",
+        "abbreviation": "Matt"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Mark",
+        "abbreviation": "Mark"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luke",
+        "abbreviation": "Luke"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "John",
+        "abbreviation": "John"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Acts",
+        "abbreviation": "Acts"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Romans",
+        "abbreviation": "Rom"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Corinthians",
+        "abbreviation": "1 Cor"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Corinthians",
+        "abbreviation": "2 Cor"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatians",
+        "abbreviation": "Gal"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Ephesians",
+        "abbreviation": "Eph"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Philippians",
+        "abbreviation": "Phil"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Colossians",
+        "abbreviation": "Col"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Thessalonians",
+        "abbreviation": "1 Thess"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Thessalonians",
+        "abbreviation": "2 Thess"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Timothy",
+        "abbreviation": "1 Tim"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Timothy",
+        "abbreviation": "2 Tim"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Titus",
+        "abbreviation": "Titus"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Philemon",
+        "abbreviation": "Philem"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Hebrews",
+        "abbreviation": "Heb"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "James",
+        "abbreviation": "James"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Peter",
+        "abbreviation": "1 Pet"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Peter",
+        "abbreviation": "2 Pet"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 John",
+        "abbreviation": "1 John"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 John",
+        "abbreviation": "2 John"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 John",
+        "abbreviation": "3 John"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Jude",
+        "abbreviation": "Jude"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Revelation",
+        "abbreviation": "Rev"
+      }
+    ]
+  },
+  "አማ54": {
+    "versionCode": "አማ54",
+    "versionId": 3867,
+    "versionName": "Amharic (1954)",
+    "language": "amh",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "ኦሪት ዘፍጥረት",
+        "abbreviation": "ዘፍ."
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "ኦሪት ዘጸአት",
+        "abbreviation": "ዘፀ."
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "ኦሪት ዘሌዋውያን",
+        "abbreviation": "ዘሌ."
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "ኦሪት ዘኊልቊ",
+        "abbreviation": "ዘኍ."
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "ኦሪት ዘዳግም",
+        "abbreviation": "ዘዳ."
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "መጽሐፈ ኢያሱ",
+        "abbreviation": "ኢያሱ"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "መጽሐፈ መሳፍንት",
+        "abbreviation": "መሳ."
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "መጽሐፈ ሩት",
+        "abbreviation": "ሩት"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "አንደኛ መጽሐፈ ሳሙኤል",
+        "abbreviation": "1ሳሙ."
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "ሁለተኛ መጽሐፈ ሳሙኤል",
+        "abbreviation": "2ሳሙ."
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "አንደኛ መጽሐፈ ነገሥት",
+        "abbreviation": "1ነገ."
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "ሁለተኛ መጽሐፈ ነገሥት",
+        "abbreviation": "2ነገ."
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "አንደኛ መጽሐፈ ዜና መዋዕል",
+        "abbreviation": "1ዜ.መ."
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "ሁለተኛ መጽሐፈ ዜና መዋዕል",
+        "abbreviation": "2ዜ.መ."
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "መጽሐፈ ዕዝራ",
+        "abbreviation": "ዕዝ."
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "መጽሐፈ ነህምያ",
+        "abbreviation": "ነህ."
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "መጽሐፈ አስቴር",
+        "abbreviation": "አስ."
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "መጽሐፈ ኢዮብ",
+        "abbreviation": "ኢዮብ"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "መዝሙረ ዳዊት",
+        "abbreviation": "መዝ."
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "መጽሐፈ ምሳሌ",
+        "abbreviation": "ምሳሌ"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "መጽሐፈ መክብብ",
+        "abbreviation": "መክ."
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "መኃልየ መኃልይ",
+        "abbreviation": "መኃ. መኃ."
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "ትንቢተ ኢሳይያስ",
+        "abbreviation": "ኢሳ."
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "ትንቢተ ኤርምያስ",
+        "abbreviation": "ኤር."
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "ሰቈቃወ ኤርምያስ",
+        "abbreviation": "ሰቆ.ኤ."
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "ትንቢተ ሕዝቅኤል",
+        "abbreviation": "ሕዝ."
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "ትንቢተ ዳንኤል",
+        "abbreviation": "ዳን."
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "ትንቢተ ሆሴዕ",
+        "abbreviation": "ሆሴዕ"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "ትንቢተ ኢዩኤል",
+        "abbreviation": "ኢዩ."
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "ትንቢተ አሞጽ",
+        "abbreviation": "አሞጽ"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "ትንቢተ አብድዩ",
+        "abbreviation": "አብ."
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "ትንቢተ ሚክያስ",
+        "abbreviation": "ሚክ."
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "ትንቢተ ዕንባቆም",
+        "abbreviation": "ዕን."
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "ትንቢተ ሶፎንያስ",
+        "abbreviation": "ሶፎ."
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "ትንቢተ ሐጌ",
+        "abbreviation": "ሐጌ"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "ትንቢተ ዘካርያስ",
+        "abbreviation": "ዘካ."
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "ትንቢተ ሚልክያስ",
+        "abbreviation": "ሚል."
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "የማቴዎስ ወንጌል",
+        "abbreviation": "ማቴ."
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "የማርቆስ ወንጌል",
+        "abbreviation": "ማር."
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "የሉቃስ ወንጌል",
+        "abbreviation": "ሉቃ."
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "የዮሐንስ ወንጌል",
+        "abbreviation": "ዮሐ."
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "የሐዋርያት ሥራ",
+        "abbreviation": "ሐ.ሥ."
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "ወደ ሮም ሰዎች",
+        "abbreviation": "ሮም"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 ወደ ቆሮንቶስ ሰዎች",
+        "abbreviation": "1ቆሮ."
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 ወደ ቆሮንቶስ ሰዎች",
+        "abbreviation": "2ቆሮ."
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "ወደ ገላትያ ሰዎች",
+        "abbreviation": "ገላ."
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "ወደ ኤፌሶን ሰዎች",
+        "abbreviation": "ኤፌ."
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "ወደ ፊልጵስዩስ ሰዎች",
+        "abbreviation": "ፊል."
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "ወደ ቆላስይስ ሰዎች",
+        "abbreviation": "ቆላ."
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 ተሰሎንቄ ሰዎች",
+        "abbreviation": "1ተሰ."
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 ተሰሎንቄ ሰዎች",
+        "abbreviation": "2ተሰ."
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 ወደ ጢሞቴዎስ",
+        "abbreviation": "1ጢሞ."
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 ወደ ጢሞቴዎስ",
+        "abbreviation": "2ጢሞ."
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "ወደ ቲቶ",
+        "abbreviation": "ቲቶ"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "ወደ ፊልሞና",
+        "abbreviation": "ፊልሞና"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "ወደ ዕብራውያን የተላከ መልእክት",
+        "abbreviation": "ዕብ."
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "የያዕቆብ መልእክት",
+        "abbreviation": "ያዕ."
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 የጴጥሮስ መልእክት",
+        "abbreviation": "1ጴጥ."
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 የጴጥሮስ መልእክት",
+        "abbreviation": "2ጴጥ."
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 የዮሐንስ መልእክት",
+        "abbreviation": "1ዮሐ."
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 የዮሐንስ መልእክት",
+        "abbreviation": "2ዮሐ."
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 የዮሐንስ መልእክት",
+        "abbreviation": "3ዮሐ."
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "የይሁዳ መልእክት",
+        "abbreviation": "ይሁዳ"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "የዮሐንስ ራእይ",
+        "abbreviation": "ራዕ."
+      }
+    ]
+  },
+  "macqul": {
+    "versionCode": "macqul",
+    "versionId": 3202,
+    "versionName": "Macaafa Qulqulluu Afaan Oromoo",
+    "language": "gaz",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Seera Uumamaa",
+        "abbreviation": "Uma"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Seera Ba'uu",
+        "abbreviation": "Bau"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Seera Lewwootaa",
+        "abbreviation": "Lew"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Seera Lakkoobsaa",
+        "abbreviation": "Lak"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Seera Keessa Deebii",
+        "abbreviation": "Kes"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Macaafa Iyaasuu",
+        "abbreviation": "Iya"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Macaafa Abboota Firdii",
+        "abbreviation": "Abo"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Macaafa Ruut",
+        "abbreviation": "Rut"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "Macaafa Saamu'el Isa Duraa",
+        "abbreviation": "1Sam"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "Macaafa Saamu'el Isa Lammaffaa",
+        "abbreviation": "2Sam"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "Macaafa Moototaa Isa Duraa",
+        "abbreviation": "1Mot"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "Macaafa Moototaa Isa Lammaffaa",
+        "abbreviation": "2Mot"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "Macaafa Seenaa Baraa Isa Duraa",
+        "abbreviation": "1Sen"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "Macaafa Seenaa Baraa Isa Lammaffaa",
+        "abbreviation": "2Sen"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Macaafa Izraa",
+        "abbreviation": "Iz"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Macaafa Nahimiiyaa",
+        "abbreviation": "Nah"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Macaafa Asteer",
+        "abbreviation": "As"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Macaafa Iyoob",
+        "abbreviation": "Iyo"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "MACAAFA FAARFANNAA",
+        "abbreviation": "Far"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Macaafa Fakkeenyaa",
+        "abbreviation": "Fak"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Macaafa Lallabaa",
+        "abbreviation": "Lal"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Macaafa Weedduu Weedduu Caalu",
+        "abbreviation": "Wed"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Macaafa Isaayaas Raajichaa",
+        "abbreviation": "Isa"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Macaafa Ermiyaas Raajichaa",
+        "abbreviation": "Er"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Faaruu Ermiyaas",
+        "abbreviation": "Faru"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Macaafa Hisqi'el Raajichaa",
+        "abbreviation": "His"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Macaafa Daani'el Raajichaa",
+        "abbreviation": "Dan"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Macaafa Hose'a Raajichaa",
+        "abbreviation": "Hos"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Macaafa Yo'el Raajichaa",
+        "abbreviation": "Yoe"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Macaafa Amos Raajichaa",
+        "abbreviation": "Amo"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Macaafa Obaadiiyaa Raajichaa",
+        "abbreviation": "Oba"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Yoonaas Raajichaa",
+        "abbreviation": "Yon"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Macaafa Miikiyaas Raajichaa",
+        "abbreviation": "Mik"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Macaafa Naahom Raajichaa",
+        "abbreviation": "Naho"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Macaafa Anbaaqom Raajichaa",
+        "abbreviation": "An"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Macaafa Sefaaniyaa Raajichaa",
+        "abbreviation": "Sef"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Macaafa Haagee Raajichaa",
+        "abbreviation": "Hag"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Macaafa Zakaariyaas Raajichaa",
+        "abbreviation": "Zak"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Macaafa Miilkiyaas Raajichaa",
+        "abbreviation": "Mil"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "WANGEELA MAATEWOS",
+        "abbreviation": "Mat"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "WANGEELA MAARQOS",
+        "abbreviation": "Mar"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "WANGEELA LUQAAS",
+        "abbreviation": "Luq"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "WANGEELA YOHANNIS",
+        "abbreviation": "Yoh"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "HOJII ERGAMOOTAA",
+        "abbreviation": "HoE"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "GARA WARRA ROOMAA",
+        "abbreviation": "Rom"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 GARA WARRA QORONTOS",
+        "abbreviation": "1Qor"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 GARA WARRA QORONTOS",
+        "abbreviation": "2Qor"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Gara Warra Galaatiyaa",
+        "abbreviation": "Gal"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "GARA WARRA EFESOON",
+        "abbreviation": "Efe"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "GARA WARRA FILIPHISIIYUS",
+        "abbreviation": "Filp"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "GARA WARRA QOLOSAAYIS",
+        "abbreviation": "Qol"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 GARA WARRA TASALONIIQEE",
+        "abbreviation": "1Tas"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 GARA WARRA TASALONIIQEE",
+        "abbreviation": "2Tas"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 GARA THIMOTEWOS",
+        "abbreviation": "1Xim"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 GARA THIMOTEWOS",
+        "abbreviation": "2Xim"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "GARA TIITOOS",
+        "abbreviation": "Tit"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "GARA FILEMON",
+        "abbreviation": "Film"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "GARA IBROOTAA",
+        "abbreviation": "Ibr"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "ERGAA YAAQOOB",
+        "abbreviation": "Yaq"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 ERGAA PHETHROS",
+        "abbreviation": "1Phe"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 ERGAA PHETHROS",
+        "abbreviation": "2Phe"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 ERGAA YOHANNIS",
+        "abbreviation": "1Yoh"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 ERGAA YOHANNIS",
+        "abbreviation": "2Yoh"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 ERGAA YOHANNIS",
+        "abbreviation": "3Yoh"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "ERGAA YIHUDAA",
+        "abbreviation": "Yih"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "MUL'ATA YOHANNIS",
+        "abbreviation": "Mul"
+      }
+    ]
+  },
+  "keeskita": {
+    "versionCode": "keeskita",
+    "versionId": 3498,
+    "versionName": "Hadiya",
+    "language": "hdy",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Qooccanchi Kitaaba",
+        "abbreviation": "Qoc"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Dooyyi Kitaaba",
+        "abbreviation": "Doy"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Qeessuwwi Kitaaba",
+        "abbreviation": "Qes"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Xiqqi Kitaaba",
+        "abbreviation": "Xiq"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "See'l Kitaaba",
+        "abbreviation": "Se'l"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Iyyaas Kitaaba",
+        "abbreviation": "Iya"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Gassaa'n Kitaaba",
+        "abbreviation": "Gas"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruut Kitaaba",
+        "abbreviation": "Rut"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Saamu'eel Kitaaba",
+        "abbreviation": "1Sam"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Saamu'eel Kitaaba",
+        "abbreviation": "2Sam"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Adilluwwi kitaaba",
+        "abbreviation": "1Adl"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Adilluwwi Kitaaba",
+        "abbreviation": "2Adl"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Agannuwwi Kitaaba",
+        "abbreviation": "1Aga"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2Agannuwwi Kitaaba",
+        "abbreviation": "2Aga"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Izira'i kitaaba",
+        "abbreviation": "Izr"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nahimei kitaaba",
+        "abbreviation": "Nah"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Asteer Kitaaba",
+        "abbreviation": "Ast"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Iyyoob Kitaaba",
+        "abbreviation": "Iyb"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Mazmuu'l Kitaaba",
+        "abbreviation": "Maz"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Kobi'llishshi Kitaaba",
+        "abbreviation": "Kob"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Hayyo'i Kitaaba",
+        "abbreviation": "Hay"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Birimmi Kitaaba",
+        "abbreviation": "Bir"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Issaayyaas Kitaaba",
+        "abbreviation": "Isa"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Ermiyaas Kitaaba",
+        "abbreviation": "Erm"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Kichchechchi Kitaaba",
+        "abbreviation": "Kich"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Hizqi'eel Kitaaba",
+        "abbreviation": "Hiz"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daani'eel Kitaaba",
+        "abbreviation": "Dan"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hoose'i Kitaaba",
+        "abbreviation": "Hos"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Iyyoo'eel Kitaaba",
+        "abbreviation": "Iyo"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amootsi",
+        "abbreviation": "Amo"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Abdiy kitaaba",
+        "abbreviation": "Abd"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Yoonaas Kitaaba",
+        "abbreviation": "Yon"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Mikkiyaas Kitaaba",
+        "abbreviation": "Mik"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Naahoom Kitaaba",
+        "abbreviation": "Noh"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Inbaaqoom Kitaaba",
+        "abbreviation": "Inb"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Safooniyaas Kitaaba",
+        "abbreviation": "Saf"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Hage'i Kitaaba",
+        "abbreviation": "Hag"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zakkaaryaas Kitaaba",
+        "abbreviation": "Zak"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Milkiyaas Kitaaba",
+        "abbreviation": "Mil"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Maatiwoos Mishiraachcha",
+        "abbreviation": "Mat"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Maarqoos Mishiraachcha",
+        "abbreviation": "Mar"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luqaas Mishiraachcha",
+        "abbreviation": "Luq"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "Yohaannis Mishiraachcha",
+        "abbreviation": "Yoh"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Asse'amaa'n Baxo",
+        "abbreviation": "Ass"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Roome'i Asso",
+        "abbreviation": "Oro"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1Qorontoos Asso",
+        "abbreviation": "1Qor"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2Qorontoos Asso",
+        "abbreviation": "2Qor"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galatiy Asso",
+        "abbreviation": "Gal"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Efeesoon Asso",
+        "abbreviation": "Efe"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Filiphphisiyus Asso",
+        "abbreviation": "Filp"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Qollaasiyaas Asso",
+        "abbreviation": "Qol"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1Tasalonqe'i Asso",
+        "abbreviation": "1Tas"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2Tasalonqe'i Asso",
+        "abbreviation": "2Tas"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1Ximootoos Asso",
+        "abbreviation": "1Xim"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2Ximootoos Asso",
+        "abbreviation": "2Xim"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Tiito'i Asso",
+        "abbreviation": "Tit"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Filimoon Asso",
+        "abbreviation": "Film"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Ibro'i Asso",
+        "abbreviation": "Ibr"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "Yaaqoob Asso",
+        "abbreviation": "Yaq"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1Pheexiroos Asso",
+        "abbreviation": "1Phex"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2Pheexiroos Asso",
+        "abbreviation": "2Phex"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1Yohaannis Asso",
+        "abbreviation": "1Yoh"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2Yohaannis Asso",
+        "abbreviation": "2Yoh"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3Yohaannis Asso",
+        "abbreviation": "3Yoh"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Yihudani kitaaba",
+        "abbreviation": "Yih"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Yohaannis Kaalta",
+        "abbreviation": "Kal"
+      }
+    ]
+  },
+  "xumats": {
+    "versionCode": "xumats",
+    "versionId": 3958,
+    "versionName": "Kambata",
+    "language": "ktb",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Qooccanchi Matsaafa",
+        "abbreviation": "Qooc."
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Fuli Matsaafa",
+        "abbreviation": "Ful."
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Leew manni Matsaafa",
+        "abbreviation": "Leew."
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Wollo Matsaafa",
+        "abbreviation": "Wol."
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Azzazo Matsaafa",
+        "abbreviation": "Azz."
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Iyyaaso Matsaafa",
+        "abbreviation": "Iys."
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Gashshaanni Matsaafa",
+        "abbreviation": "Gash."
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Ruute Matsaafa",
+        "abbreviation": "Ruut."
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "Saamueele Wona Matsaafa",
+        "abbreviation": "1Saam."
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "Saamueele Lanki Matsaafa",
+        "abbreviation": "2Saam."
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "Wommaakka Wona Matsaafa",
+        "abbreviation": "1Wom."
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "Wommaakka Lanki Matsaafa",
+        "abbreviation": "2Wom."
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "Dudubi Wona Matsaafa",
+        "abbreviation": "1Dud."
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "Dudubi Lanki Matsaafa",
+        "abbreviation": "2Dud."
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Izra Matsaafa",
+        "abbreviation": "Izr."
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Nahimiya Matsaafa",
+        "abbreviation": "Nah."
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Asteere Matsaafa",
+        "abbreviation": "Ast."
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Iyyoobe Matsaafa",
+        "abbreviation": "Iyb."
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Mazmuri Matsaafa",
+        "abbreviation": "Maz."
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Agudiishsha Matsaafa",
+        "abbreviation": "Agu."
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Qoorima Matsaafa",
+        "abbreviation": "Qoor."
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Abba Mazmura",
+        "abbreviation": "Amaz."
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Hiraagaancho Issiyaase Matsaafa",
+        "abbreviation": "Iss."
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Hiraagaancho Ermiyaase Matsaafa",
+        "abbreviation": "Erm."
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Aayyeeshsha Matsaafa",
+        "abbreviation": "Aay."
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Hiraagaancho Hizqe'eele Matsaafa",
+        "abbreviation": "Hiz."
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Hiraagaancho Daanieele Matsaafa",
+        "abbreviation": "Daan."
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hiraagaancho Hoose'e Matsaafa",
+        "abbreviation": "Hoos."
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Hiraagaancho Iyyoeele Maaxaafa",
+        "abbreviation": "Iyl."
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Hiraagaancho Amootse Matsaafa",
+        "abbreviation": "Amo."
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Hiraagaancho Abdiyo Matsaafa",
+        "abbreviation": "Abd."
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Hiraagaancho Yoonaase Matsaafa",
+        "abbreviation": "Yoon."
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Hiraagaancho Mikkiyaase Matsaafa",
+        "abbreviation": "Mik."
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Hiraagaancho Naahoome Matsaafa",
+        "abbreviation": "Naah."
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Hiraagaancho Imbaaqoome Matsaafa",
+        "abbreviation": "Imb."
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Hiraagaancho Sofooniyaase Matsaafa",
+        "abbreviation": "Sof."
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Hiraagaancho Haage Matsaafa",
+        "abbreviation": "Haag."
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Hiraagaancho Zakkaariyaase Matsaafa",
+        "abbreviation": "Zak."
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Hiraagaancho Milkiyaase Matsaafa",
+        "abbreviation": "Mil."
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Maatoose Mishiraachchi Matsaafa",
+        "abbreviation": "Maat."
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Maarqoose Mishiraachchi Matsaafa",
+        "abbreviation": "Maar."
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Luqaase Mishiraachchi Matsaafa",
+        "abbreviation": "Luq."
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "Yohaannise Mishiraachchi Matsaafa",
+        "abbreviation": "Yoh."
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Soqqamaanni Huje Matsaafa",
+        "abbreviation": "Soq."
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Roome Sohinuta",
+        "abbreviation": "Room."
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "Qorontoosi Wona Sohinuta",
+        "abbreviation": "1Qor."
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "Qorontoosi Lanki Sohinuta",
+        "abbreviation": "2Qor."
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Galaatiyi Sohinuta",
+        "abbreviation": "Gal."
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Efesooni Sohinuta",
+        "abbreviation": "Efn."
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Filiphsuusi Sohinuta",
+        "abbreviation": "Flph."
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Qollaasiyaasi Sohinuta",
+        "abbreviation": "Qol."
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "Tasaloonqe Wona Sohinuta",
+        "abbreviation": "1Tas."
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "Tasaloonqe Lanki Sohinta",
+        "abbreviation": "2Tas."
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "Ximaatoose Wona Sohinuta",
+        "abbreviation": "1Xim."
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "Ximaatoose Lanki Sohinuta",
+        "abbreviation": "2Xim."
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Tiito Sohinuta",
+        "abbreviation": "Tiit."
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Filimoone Sohinuta",
+        "abbreviation": "Flm."
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Ibr manni Sohinuta",
+        "abbreviation": "Ibr."
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "Yaaqoobe Sohinuta",
+        "abbreviation": "Yaaq."
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "Pheexiroose Wona Sohinuta",
+        "abbreviation": "1Pheex."
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "Pheexroose Lanki Sohinuta",
+        "abbreviation": "2Pheex."
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "Yohaannise Wona Sohinuta",
+        "abbreviation": "1Yoh."
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "Yohaannise Lanki Sohinuta",
+        "abbreviation": "2Yoh."
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "Yohaannise Sakki Sohinuta",
+        "abbreviation": "3Yoh."
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Yihudi Sohinuta",
+        "abbreviation": "Yih."
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Caakki Matsaafa",
+        "abbreviation": "Caak."
+      }
+    ]
+  },
+  "nocv": {
+    "versionCode": "nocv",
+    "versionId": 3725,
+    "versionName": "ክታበ ቁልቁሉ፣ ሂካ አመያ ሃራ",
+    "language": "gaz",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "ኡመመ",
+        "abbreviation": "ኡመ"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "በኡ",
+        "abbreviation": "በኡ"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "ሌዎተ",
+        "abbreviation": "ሌዎ"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "ለኮብሰ",
+        "abbreviation": "ለኮ"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "ኬሰ ዴቢ",
+        "abbreviation": "ኬዴ"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "እያሱ",
+        "abbreviation": "እያ"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "አቦቲ ሙርቲ",
+        "abbreviation": "አቦሙ"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "ሩት",
+        "abbreviation": "ሩት"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 ሳሙኤል",
+        "abbreviation": "1ሳሙ"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 ሳሙኤል",
+        "abbreviation": "2ሳሙ"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 ሞቶተ",
+        "abbreviation": "1ሞቶ"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 ሞቶተ",
+        "abbreviation": "2ሞቶ"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 ሴና",
+        "abbreviation": "1ሴና"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 ሴና",
+        "abbreviation": "2ሴና"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "እዝራ",
+        "abbreviation": "እዝ"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "ነህምያ",
+        "abbreviation": "ነህ"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "አስቴር",
+        "abbreviation": "አስ"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "እዮብ",
+        "abbreviation": "ኢዮ"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "ፋርፈትና",
+        "abbreviation": "ፋር"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "ፈኬኘ",
+        "abbreviation": "ፈኬ"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "ለለበ",
+        "abbreviation": "ለለ"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "ዌዱ",
+        "abbreviation": "ዌዱ"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "እሳያስ",
+        "abbreviation": "እሳ"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "ኤርምያስ",
+        "abbreviation": "ኤር"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "ፋሩ",
+        "abbreviation": "ፋሩ"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "ህስቅኤል",
+        "abbreviation": "ህስ"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "ዳንኤል",
+        "abbreviation": "ዳን"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "ሆሴኣ",
+        "abbreviation": "ሆሴ"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "ዮኤል",
+        "abbreviation": "ዮኤ"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "አሞስ",
+        "abbreviation": "አሞ"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "ኦባድያ",
+        "abbreviation": "አብድ"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "ዮናስ",
+        "abbreviation": "ዮና"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "ሚክያስ",
+        "abbreviation": "ሚክ"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "ነሆም",
+        "abbreviation": "ናሆ"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "አንባቆም",
+        "abbreviation": "አንባ"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "ሴፋንያ",
+        "abbreviation": "ሴፋ"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "ሃጌ",
+        "abbreviation": "ሃጌ"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "ዘካርያስ",
+        "abbreviation": "ዘካ"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "ሚልክያስ",
+        "abbreviation": "ሚል"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "ማቴዎስ",
+        "abbreviation": "ማቴ"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "ማርቆስ",
+        "abbreviation": "ማር"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "ሉቃስ",
+        "abbreviation": "ሉቃ"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "ዮሀንስ",
+        "abbreviation": "ዮሀ"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "ሆጂ",
+        "abbreviation": "ሆጂ"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "ሮማ",
+        "abbreviation": "ሮማ"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 ቆሮንቶስ",
+        "abbreviation": "1ቆሮ"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 ቆሮንቶስ",
+        "abbreviation": "2ቆሮ"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "ገላትያ",
+        "abbreviation": "ገላ"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "ኤፌሶን",
+        "abbreviation": "ኤፌ"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "ፊልጵስዩስ",
+        "abbreviation": "ፊል"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "ቆሎሳይስ",
+        "abbreviation": "ቆሎ"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 ተሰሎኒቄ",
+        "abbreviation": "1ተሰ"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 ተሰሎኒቄ",
+        "abbreviation": "2ተሰ"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 ጢሞቴዎስ",
+        "abbreviation": "1ጢሞ"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 ጢሞቴዎስ",
+        "abbreviation": "2ጢሞ"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "ቲቶ",
+        "abbreviation": "ቲቶ"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "ፊልሞና",
+        "abbreviation": "ፊሞ"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "እብሮተ",
+        "abbreviation": "እብሮ"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "ያቆብ",
+        "abbreviation": "ያቆ"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 ጴጥሮስ",
+        "abbreviation": "1ጴጥ"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 ጴጥሮስ",
+        "abbreviation": "2ጴጥ"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 ዮሀንስ",
+        "abbreviation": "1ዮሀ"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 ዮሀንስ",
+        "abbreviation": "2ዮሀ"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 ዮሀንስ",
+        "abbreviation": "3ዮሀ"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "ይሁዳ",
+        "abbreviation": "ይሁ"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "ሙልአተ",
+        "abbreviation": "ሙል"
+      }
+    ]
+  },
+  "nasv": {
+    "versionCode": "nasv",
+    "versionId": 1260,
+    "versionName": "አዲሱ መደበኛ ትርጒም",
+    "language": "amh",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "ዘፍጥረት",
+        "abbreviation": "ዘፍ"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "ዘፀአት",
+        "abbreviation": "ዘፀ"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "ዘሌዋውያን",
+        "abbreviation": "ዘሌ"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "ዘኍልቍ",
+        "abbreviation": "ዘኍ"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "ዘዳግም",
+        "abbreviation": "ዘዳ"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "ኢያሱ",
+        "abbreviation": "ኢያ"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "መሳፍንት",
+        "abbreviation": "መሳ"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "ሩት",
+        "abbreviation": "ሩት"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 ሳሙኤል",
+        "abbreviation": "1ሳሙ"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 ሳሙኤል",
+        "abbreviation": "2ሳሙ"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 ነገሥት",
+        "abbreviation": "1ነገ"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 ነገሥት",
+        "abbreviation": "2ነገ"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 ዜና መዋዕል",
+        "abbreviation": "1ዜና"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 ዜና መዋዕል",
+        "abbreviation": "2ዜና"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "ዕዝራ",
+        "abbreviation": "ዕዝ"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "ነህምያ",
+        "abbreviation": "ነህ"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "አስቴር",
+        "abbreviation": "አስ"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "ኢዮብ",
+        "abbreviation": "ኢዮ"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "መዝሙር",
+        "abbreviation": "መዝ"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "ምሳሌ",
+        "abbreviation": "ምሳ"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "መክብብ",
+        "abbreviation": "መክ"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "ማሕልየ መሓልይ",
+        "abbreviation": "ማሕ"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "ኢሳይያስ",
+        "abbreviation": "ኢሳ"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "ኤርምያስ",
+        "abbreviation": "ኤር"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "ሰቈቃወ",
+        "abbreviation": "ሰቈ"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "ሕዝቅኤል",
+        "abbreviation": "ሕዝ"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "ዳንኤል",
+        "abbreviation": "ዳን"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "ሆሴዕ",
+        "abbreviation": "ሆሴ"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "ኢዩኤል",
+        "abbreviation": "ኢዩ"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "አሞጽ",
+        "abbreviation": "አሞ"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "አብድዩ",
+        "abbreviation": "አብ"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "ዮናስ",
+        "abbreviation": "ዮና"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "ሚክያስ",
+        "abbreviation": "ሚክ"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "ናሆም",
+        "abbreviation": "ናሆ"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "ዕንባቆም",
+        "abbreviation": "ዕን"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "ሶፎንያስ",
+        "abbreviation": "ሶፎ"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "ሐጌ",
+        "abbreviation": "ሐጌ"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "ዘካርያስ",
+        "abbreviation": "ዘካ"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "ሚልክያስ",
+        "abbreviation": "ሚል"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "ማቴዎስ",
+        "abbreviation": "ማቴ"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "ማርቆስ",
+        "abbreviation": "ማር"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "ሉቃስ",
+        "abbreviation": "ሉቃ"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "ዮሐንስ",
+        "abbreviation": "ዮሐ"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "ሐዋርያት ሥራ",
+        "abbreviation": "ሐሥ"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "ሮሜ",
+        "abbreviation": "ሮሜ"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 ቆሮንቶስ",
+        "abbreviation": "1ቆሮ"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 ቆሮንቶስ",
+        "abbreviation": "2ቆሮ"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "ገላትያ",
+        "abbreviation": "ገላ"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "ኤፌሶን",
+        "abbreviation": "ኤፌ"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "ፊልጵስዩስ",
+        "abbreviation": "ፊል"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "ቈላስይስ",
+        "abbreviation": "ቈላ"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 ተሰሎንቄ",
+        "abbreviation": "1ተሰ"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 ተሰሎንቄ",
+        "abbreviation": "2ተሰ"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 ጢሞቴዎስ",
+        "abbreviation": "1ጢሞ"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 ጢሞቴዎስ",
+        "abbreviation": "2ጢሞ"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "ቲቶ",
+        "abbreviation": "ቲቶ"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "ፊልሞና",
+        "abbreviation": "ፊሞ"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "ዕብራውያን",
+        "abbreviation": "ዕብ"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "ያዕቆብ",
+        "abbreviation": "ያዕ"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 ጴጥሮስ",
+        "abbreviation": "1ጴጥ"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 ጴጥሮስ",
+        "abbreviation": "2ጴጥ"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 ዮሐንስ",
+        "abbreviation": "1ዮሐ"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 ዮሐንስ",
+        "abbreviation": "2ዮሐ"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 ዮሐንስ",
+        "abbreviation": "3ዮሐ"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "ይሁዳ",
+        "abbreviation": "ይሁ"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "ራእይ",
+        "abbreviation": "ራእ"
+      }
+    ]
+  },
+  "guj": {
+    "versionCode": "guj",
+    "versionId": 4125,
+    "versionName": "KItaaba Woyyicha (Gujii)",
+    "language": "gaz",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Kitaaba Seera Dadaa",
+        "abbreviation": "Dad."
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Kitaaba Seera Bayiisaa",
+        "abbreviation": "Bay."
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Kitaaba Seera Lewwootaa",
+        "abbreviation": "Lew."
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Kitaaba Seera Laakkossaa",
+        "abbreviation": "Lak."
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Kitaaba Seera Keessa Deebii",
+        "abbreviation": "Kes."
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Kitaaba Iyaasu'uu",
+        "abbreviation": "Iya."
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Kitaaba Abbootii Mura'aa",
+        "abbreviation": "Abo."
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Kitaaba Ruutii",
+        "abbreviation": "Rut."
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1 Saamu'elii",
+        "abbreviation": "1 Sam."
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2 Saamu'elii",
+        "abbreviation": "2 Sam."
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1 Moototaa",
+        "abbreviation": "1 Mot."
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2 Moototaa",
+        "abbreviation": "2 Mot."
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1 Dabarsi'i",
+        "abbreviation": "1 Dab."
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2 Dabarsi'i",
+        "abbreviation": "2 Dab."
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Kitaaba Izra'aa",
+        "abbreviation": "Izr."
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Kitaaba Nahimiya'aa",
+        "abbreviation": "Neh."
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Kitaaba Asteerii",
+        "abbreviation": "Ast."
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Kitaaba Iyoobii",
+        "abbreviation": "Iyo."
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Kitaaba Faaru'uu",
+        "abbreviation": "Far."
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Kitaaba Fakkeennaa",
+        "abbreviation": "Fak."
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Kitaaba Lallabaa",
+        "abbreviation": "Lal."
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Kitaaba Faaruu Solomoonii",
+        "abbreviation": "Far. Sol."
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Isaayaasii Raagichaa",
+        "abbreviation": "Isa."
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Kitaaba Ermiyaasii Raagichaa",
+        "abbreviation": "Erm."
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Kitaaba Gadda Ermiyaasii",
+        "abbreviation": "Gad."
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Kitaaba Hizqi'elii Raagichaa",
+        "abbreviation": "Hiz."
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Daani'elii Raagichaa",
+        "abbreviation": "Dan."
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Hose'aa Raagichaa",
+        "abbreviation": "Hos."
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Yo'elii Raagichaa",
+        "abbreviation": "Yo'e."
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Amosii Raagichaa",
+        "abbreviation": "Amo."
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Obaadiyaa Raagichaa",
+        "abbreviation": "Oba."
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Yoonaasii Raagichaa",
+        "abbreviation": "Yon."
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Miikiyaasii Raagichaa",
+        "abbreviation": "Mik."
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Naahomii Raagichaa",
+        "abbreviation": "Nah."
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Anbaaqoomii Raagichaa",
+        "abbreviation": "Anb."
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Sefaaniyaa Raagichaa",
+        "abbreviation": "Sef."
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Haagee Raagichaa",
+        "abbreviation": "Hag."
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Zakaariyaasii Raagichaa",
+        "abbreviation": "Zak."
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Kitaaba Milkiyaasii Raagichaa",
+        "abbreviation": "Mil."
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Wongeela Maatewoosii",
+        "abbreviation": "Mat."
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Wongeela Maarqoosii",
+        "abbreviation": "Mar."
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Wongeela Luqaasii",
+        "abbreviation": "Luq."
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "Wongeela Yohaannisii",
+        "abbreviation": "Yoh."
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Hujii Ergantootaa",
+        "abbreviation": "HuE."
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Worra Rooma'aa",
+        "abbreviation": "Rom."
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1 Worra Qorontoosii",
+        "abbreviation": "1 Qor."
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2 Worra Qorontoosii",
+        "abbreviation": "2 Qor."
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Worra Galaatiya'aa",
+        "abbreviation": "Gal."
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Worra Efesoonii",
+        "abbreviation": "Efe."
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Worra Filiphisiiyuusii",
+        "abbreviation": "Filp."
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Worra Qolosaayisii",
+        "abbreviation": "Qol."
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1 Worra Tasalonqe'ee",
+        "abbreviation": "1 Tas."
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2 Worra Tasalonqe'ee",
+        "abbreviation": "2 Tas."
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1 Ximootewoos",
+        "abbreviation": "1 Xim."
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2 Ximootewoos",
+        "abbreviation": "2 Xim."
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Tiitoos",
+        "abbreviation": "Tit."
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Filemoon",
+        "abbreviation": "Film."
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Ibroota",
+        "abbreviation": "Ibr."
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "Ergaa Yaaqoobii",
+        "abbreviation": "Yaq."
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1 Ergaa Pheexroosii",
+        "abbreviation": "1 Phex."
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2 Ergaa Pheexroosii",
+        "abbreviation": "2 Phex."
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1 Ergaa Yohaannisii",
+        "abbreviation": "1 Yoh."
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2 Ergaa Yohaannisii",
+        "abbreviation": "2 Yoh."
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3 Ergaa Yohaannisii",
+        "abbreviation": "3 Yoh."
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Ergaa Yihuda'aa",
+        "abbreviation": "Yih."
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Mudhii Yohaannisii",
+        "abbreviation": "Mudh."
+      }
+    ]
+  },
+  "kitwoy": {
+    "versionCode": "kitwoy",
+    "versionId": 3497,
+    "versionName": "Kitaaba Woyyuu",
+    "language": "gaz",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "Seera Uumamaa",
+        "abbreviation": "Ser. Uma."
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "Seera Bayu'uu",
+        "abbreviation": "Ser. Ba'u."
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "Seera Leewwotaa",
+        "abbreviation": "Ser. Lew."
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "Seera Laakkobsaa",
+        "abbreviation": "Ser. Lak."
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "Seera Keessa Deebii",
+        "abbreviation": "Kes. Deb."
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "Kitaaba Iyyaasu'uu",
+        "abbreviation": "Iyya."
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "Abboota Murti'ii",
+        "abbreviation": "Abbo. Mur."
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "Kitaaba Ruutii",
+        "abbreviation": "Rut."
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "Kitaaba Saamu'eelii ka 1ffaa",
+        "abbreviation": "Sam. 1ffaa"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "Kitaaba Saamu'eelii ka 2ffaa",
+        "abbreviation": "Sam. 2ffaa"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "Kitaaba Moototaa ka 1ffaa",
+        "abbreviation": "Mot. 1ffaa"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "Kitaaba Mootota ka 2ffaa",
+        "abbreviation": "Mot. 2ffaa"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "Kitaaba Seena'aa ka 1ffaa",
+        "abbreviation": "Sen. 1ffaa"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "Kitaaba Seena'aa ka 2ffaa",
+        "abbreviation": "Sen. 2ffaa"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "Kitaaba Izra'aa",
+        "abbreviation": "Izra"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "Kitaaba Naahimiya'aa",
+        "abbreviation": "Nah."
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "Kitaaba Asteerii",
+        "abbreviation": "Ast."
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "Kitaaba Iyyoobii",
+        "abbreviation": "Iyyo."
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "Kitaaba Faaru'uu",
+        "abbreviation": "Far."
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "Kitaaba Mammaakaa",
+        "abbreviation": "Mam."
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "Kitaaba Lallabaa",
+        "abbreviation": "Lal."
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "Kitaaba Weedduu Weedduu Caalu",
+        "abbreviation": "Wed."
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "Raajii Isaayyaasii",
+        "abbreviation": "Isa."
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "Raajii Ermiyaasii",
+        "abbreviation": "Erm."
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "Kitaaba Faaruu Ermiyaasii",
+        "abbreviation": "Far. Erm."
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "Raajii Hisqeelii",
+        "abbreviation": "His."
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "Raajii Daani'eelii",
+        "abbreviation": "Dan."
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "Raajii Hose'ee",
+        "abbreviation": "Hose."
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "Raajii Iyyu'eelii",
+        "abbreviation": "Iyyu."
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "Raajii Amootsii",
+        "abbreviation": "Amo."
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "Raajii Abdiyyuu",
+        "abbreviation": "Abd."
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "Raajii Yoonaasii",
+        "abbreviation": "Yon."
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "Raajii Miikiyaasii",
+        "abbreviation": "Mik."
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "Raajii Naahoomii",
+        "abbreviation": "Naho."
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "Raajii Imbaaqoomii",
+        "abbreviation": "Imba."
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "Raajii Sofoniyaasii",
+        "abbreviation": "Sofo."
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "Raajii Hage'ee",
+        "abbreviation": "Hag."
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "Raajii Zakkaariyaasii",
+        "abbreviation": "Zakk."
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "Raajii Milkiyaasii",
+        "abbreviation": "Mil."
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "Dubbii Nagayaa Ka Maatewoosii",
+        "abbreviation": "Mat."
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "Dubbii Nagayaa Ka Maarqoosii",
+        "abbreviation": "Mar."
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "Dubbii Nagayaa Ka Luqaasii",
+        "abbreviation": "Luq."
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "Dubbii Nagayaa Ka Yohaannisii",
+        "abbreviation": "Yoh."
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "Hujii Ergamootaa",
+        "abbreviation": "Hu. Er."
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "Gara Worra Rooma'aa",
+        "abbreviation": "Rom."
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "Gara Worra Qorontoosii 1ffaa",
+        "abbreviation": "Qor. 1ffaa"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "Gara Worra Qorontoosii 2ffaa",
+        "abbreviation": "Qor. 2ffaa"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "Gara Worra Galaatiya'aa",
+        "abbreviation": "Gal."
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "Gara Worra Efesoonii",
+        "abbreviation": "Efe."
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "Gara Worra Filiphisiyuusii",
+        "abbreviation": "Filph."
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "Gara Worra Qolaasiyaasii",
+        "abbreviation": "Qol."
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "Gara Worra Tasolonqe'ee 1ffaa",
+        "abbreviation": "Tas. 1ffaa"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "Gara Worra Tasolonqe'ee 2ffaa",
+        "abbreviation": "Tas. 2ffaa"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "Gara Ximootewoosii 1ffaa",
+        "abbreviation": "Xim. 1ffaa"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "Gara Ximootewoosii 2ffaa",
+        "abbreviation": "Xim. 2ffaa"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "Gara Tiito'oo",
+        "abbreviation": "Tit."
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "Gara Filimoona'aa",
+        "abbreviation": "Film."
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "Gara Worra Ibrootaa",
+        "abbreviation": "Ibr."
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "Ergaa Yaaqoob",
+        "abbreviation": "Yaq."
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "Pheexroosii Ka 1ffaa",
+        "abbreviation": "Phex. 1ffaa"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "Pheexroosii Ka 2ffaa",
+        "abbreviation": "Phex. 2ffaa"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "Yohaannisii Ka 1ffaa",
+        "abbreviation": "Yoh. 1ffaa"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "Yohaannisii Ka 2ffaa",
+        "abbreviation": "Yoh. 2ffaa"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "Yohaannisii Ka 3ffaa",
+        "abbreviation": "Yoh. 3ffaa"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "Ergaa Yihuuda'aa",
+        "abbreviation": "Yihu."
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "Mudhata Yohaannisii",
+        "abbreviation": "Mudh. Yoh."
+      }
+    ]
+  },
+  "qulmax": {
+    "versionCode": "qulmax",
+    "versionId": 3204,
+    "versionName": "Qullaawa Maxaafa (Sidamo)",
+    "language": "sidamo",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "KALAQAMA",
+        "abbreviation": "Kal"
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "FULO",
+        "abbreviation": "Ful"
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "LEEWAAWOOTA",
+        "abbreviation": "Lew"
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "KIIRO",
+        "abbreviation": "Kir"
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "MARRO",
+        "abbreviation": "Mar"
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "IYYAASU",
+        "abbreviation": "Iya"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "EJJEETTO",
+        "abbreviation": "Eje"
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "RUUTI",
+        "abbreviation": "Rut"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "UMI SAAMUEELI",
+        "abbreviation": "1Sam"
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "LAYINKI SAAMUEELI",
+        "abbreviation": "2Sam"
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "UMI MOOTOOLLA",
+        "abbreviation": "1Mot"
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "LAYINKI MOOTOOLLA",
+        "abbreviation": "2Mot"
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "UMI DUDUWO",
+        "abbreviation": "1Dud"
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "LAYINKI DUDUWO",
+        "abbreviation": "2Dud"
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "IZIRA",
+        "abbreviation": "Izi"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "NEHIMIYA",
+        "abbreviation": "Neh"
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "ASTEERI",
+        "abbreviation": "Ast"
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "IYYOOBI",
+        "abbreviation": "Iyo"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "FAARSO",
+        "abbreviation": "Far"
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "LAWISHSHA",
+        "abbreviation": "Law"
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "ROSIISAANCHO",
+        "abbreviation": "Ros"
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "FAARSO ROORE FAARSO",
+        "abbreviation": "Farf"
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "ISAYAASI",
+        "abbreviation": "Isa"
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "ERMIYAASI",
+        "abbreviation": "Erm"
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "ERMIYAASI QURTO",
+        "abbreviation": "Erq"
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "HIZIQEELI",
+        "abbreviation": "Hiz"
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "DAANIEELI",
+        "abbreviation": "Dan"
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "HOOSEI",
+        "abbreviation": "Hos"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "IYUEELI",
+        "abbreviation": "Iyu"
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "AMOOTSI",
+        "abbreviation": "Amo"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "ABIDIYU",
+        "abbreviation": "Abi"
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "YOONAASI",
+        "abbreviation": "Yon"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "MIKIYAASI",
+        "abbreviation": "Mik"
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "NAHOOMI",
+        "abbreviation": "Nah"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "IMBAAQOOMI",
+        "abbreviation": "Imb"
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "SOFFOONIYAASI",
+        "abbreviation": "Sof"
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "HAGE",
+        "abbreviation": "Hag"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "ZAKKAARIYAASI",
+        "abbreviation": "Zak"
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "MILKIYAASI",
+        "abbreviation": "Mil"
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "MAATEWOOSI",
+        "abbreviation": "Mat"
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "MAARQOOSI",
+        "abbreviation": "Maq"
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "LUQAASI",
+        "abbreviation": "Luq"
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "YOHAANNISI",
+        "abbreviation": "Yoh"
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "SOQQAMAASINETE LOOSO",
+        "abbreviation": "Soq"
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "ROOMU SOKKA",
+        "abbreviation": "Rom"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "UMI QORONTOOSI",
+        "abbreviation": "1Qor"
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "LAYINKI QORONTOOSI",
+        "abbreviation": "2Qor"
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "GALATIYU SOKKA",
+        "abbreviation": "Gal"
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "EFESOONI SOKKA",
+        "abbreviation": "Efe"
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "FILIPHISIYUSI SOKKA",
+        "abbreviation": "Fil"
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "QOLASIYAASI SOKKA",
+        "abbreviation": "Qol"
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "UMI TESELONQE",
+        "abbreviation": "1Tes"
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "LAYINKI TESELONQE",
+        "abbreviation": "2Tes"
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "UMI XIMOOTEWOOSI",
+        "abbreviation": "1Xim"
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "LAYINKI XIMOOTEWOOSI",
+        "abbreviation": "2Xim"
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "TIITO",
+        "abbreviation": "Tit"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "FILIMOONA",
+        "abbreviation": "Film"
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "IBIRAAWOOTA",
+        "abbreviation": "Ibi"
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "YAIQOOBI",
+        "abbreviation": "Yai"
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "UMI PHEEXIROOSI",
+        "abbreviation": "1Phe"
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "LAYINKI PHEEXIROOSI",
+        "abbreviation": "2Phe"
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "UMI YOHAANNISI",
+        "abbreviation": "1Yoh"
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "LAYINKI YOHAANNISI",
+        "abbreviation": "2Yoh"
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "SAYIKKI YOHAANNISI",
+        "abbreviation": "3Yoh"
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "YIHUDA",
+        "abbreviation": "Yih"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "YOHAANNIS AJUUJA",
+        "abbreviation": "Aju"
+      }
+    ]
+  },
+  "ትመ15": {
+    "versionCode": "ትመ15",
+    "versionId": 2998,
+    "versionName": "ትግርኛ መፅሓፍ ቅዱስ",
+    "language": "ትግርኛ",
+    "books": [
+      {
+        "order": 1,
+        "usfm": "GEN",
+        "name": "ዘፍጥረት",
+        "abbreviation": "ዘፍ."
+      },
+      {
+        "order": 2,
+        "usfm": "EXO",
+        "name": "ዘፀኣት",
+        "abbreviation": "ዘፀ."
+      },
+      {
+        "order": 3,
+        "usfm": "LEV",
+        "name": "ዘሌዋውያን",
+        "abbreviation": "ዘሌ."
+      },
+      {
+        "order": 4,
+        "usfm": "NUM",
+        "name": "ዘሑልቍ",
+        "abbreviation": "ዘሑ."
+      },
+      {
+        "order": 5,
+        "usfm": "DEU",
+        "name": "ዘዳግም",
+        "abbreviation": "ዘዳ."
+      },
+      {
+        "order": 6,
+        "usfm": "JOS",
+        "name": "ኢያሱ",
+        "abbreviation": "ኢያሱ"
+      },
+      {
+        "order": 7,
+        "usfm": "JDG",
+        "name": "መሳፍንት",
+        "abbreviation": "መሳ."
+      },
+      {
+        "order": 8,
+        "usfm": "RUT",
+        "name": "ሩት",
+        "abbreviation": "ሩት"
+      },
+      {
+        "order": 9,
+        "usfm": "1SA",
+        "name": "1ይ ሳሙኤል",
+        "abbreviation": "1 ሳሙ."
+      },
+      {
+        "order": 10,
+        "usfm": "2SA",
+        "name": "2ይ ሳሙኤል",
+        "abbreviation": "2 ሳሙ."
+      },
+      {
+        "order": 11,
+        "usfm": "1KI",
+        "name": "1ይ ነገስት",
+        "abbreviation": "1 ነገ."
+      },
+      {
+        "order": 12,
+        "usfm": "2KI",
+        "name": "2ይ ነገስት",
+        "abbreviation": "2 ነገ."
+      },
+      {
+        "order": 13,
+        "usfm": "1CH",
+        "name": "1ይ ዜና",
+        "abbreviation": "1 ዜና."
+      },
+      {
+        "order": 14,
+        "usfm": "2CH",
+        "name": "2ይ ዜና",
+        "abbreviation": "2 ዜና."
+      },
+      {
+        "order": 15,
+        "usfm": "EZR",
+        "name": "እዝራ",
+        "abbreviation": "እዝራ"
+      },
+      {
+        "order": 16,
+        "usfm": "NEH",
+        "name": "ነህምያ",
+        "abbreviation": "ነህ."
+      },
+      {
+        "order": 17,
+        "usfm": "EST",
+        "name": "ኣስቴር",
+        "abbreviation": "ኣስ."
+      },
+      {
+        "order": 18,
+        "usfm": "JOB",
+        "name": "ኢዮብ",
+        "abbreviation": "ኢዮብ"
+      },
+      {
+        "order": 19,
+        "usfm": "PSA",
+        "name": "ዳዊት",
+        "abbreviation": "መዝ."
+      },
+      {
+        "order": 20,
+        "usfm": "PRO",
+        "name": "ምሳሌ",
+        "abbreviation": "ምሳ."
+      },
+      {
+        "order": 21,
+        "usfm": "ECC",
+        "name": "መክብብ",
+        "abbreviation": "መክ."
+      },
+      {
+        "order": 22,
+        "usfm": "SNG",
+        "name": "መሃልየ",
+        "abbreviation": "መሃ."
+      },
+      {
+        "order": 23,
+        "usfm": "ISA",
+        "name": "ኢሳይያስ",
+        "abbreviation": "ኢሳ."
+      },
+      {
+        "order": 24,
+        "usfm": "JER",
+        "name": "ኤርሚያስ",
+        "abbreviation": "ኤር."
+      },
+      {
+        "order": 25,
+        "usfm": "LAM",
+        "name": "ሰቆቃወ",
+        "abbreviation": "ሰቆ."
+      },
+      {
+        "order": 26,
+        "usfm": "EZK",
+        "name": "ሕዝቅኤል",
+        "abbreviation": "ሕዝ."
+      },
+      {
+        "order": 27,
+        "usfm": "DAN",
+        "name": "ዳንኤል",
+        "abbreviation": "ዳን."
+      },
+      {
+        "order": 28,
+        "usfm": "HOS",
+        "name": "ሆሴዕ",
+        "abbreviation": "ሆሴዕ"
+      },
+      {
+        "order": 29,
+        "usfm": "JOL",
+        "name": "ኢዩኤል",
+        "abbreviation": "ኢዩ."
+      },
+      {
+        "order": 30,
+        "usfm": "AMO",
+        "name": "ኣሞፅ",
+        "abbreviation": "ኣሞፅ"
+      },
+      {
+        "order": 31,
+        "usfm": "OBA",
+        "name": "ኣብድዩ",
+        "abbreviation": "ኣብ."
+      },
+      {
+        "order": 32,
+        "usfm": "JON",
+        "name": "ዮናስ",
+        "abbreviation": "ዮናስ"
+      },
+      {
+        "order": 33,
+        "usfm": "MIC",
+        "name": "ሚክያስ",
+        "abbreviation": "ሚክ."
+      },
+      {
+        "order": 34,
+        "usfm": "NAM",
+        "name": "ናሆም",
+        "abbreviation": "ናሆም"
+      },
+      {
+        "order": 35,
+        "usfm": "HAB",
+        "name": "እንባቆም",
+        "abbreviation": "እንባ."
+      },
+      {
+        "order": 36,
+        "usfm": "ZEP",
+        "name": "ሶፎንያስ",
+        "abbreviation": "ሶፎ."
+      },
+      {
+        "order": 37,
+        "usfm": "HAG",
+        "name": "ሓጌ",
+        "abbreviation": "ሓጌ"
+      },
+      {
+        "order": 38,
+        "usfm": "ZEC",
+        "name": "ዘካርያስ",
+        "abbreviation": "ዘካ."
+      },
+      {
+        "order": 39,
+        "usfm": "MAL",
+        "name": "ሚልክያስ",
+        "abbreviation": "ሚል."
+      },
+      {
+        "order": 40,
+        "usfm": "MAT",
+        "name": "ማቴዎስ",
+        "abbreviation": "ማቴ."
+      },
+      {
+        "order": 41,
+        "usfm": "MRK",
+        "name": "ማርቆስ",
+        "abbreviation": "ማር."
+      },
+      {
+        "order": 42,
+        "usfm": "LUK",
+        "name": "ሉቃስ",
+        "abbreviation": "ሉቃ."
+      },
+      {
+        "order": 43,
+        "usfm": "JHN",
+        "name": "ዮሃንስ",
+        "abbreviation": "ዮሓ."
+      },
+      {
+        "order": 44,
+        "usfm": "ACT",
+        "name": "ግብሪ ሃዋርያት",
+        "abbreviation": "ግ.ሓ."
+      },
+      {
+        "order": 45,
+        "usfm": "ROM",
+        "name": "ሮሜ",
+        "abbreviation": "ሮሜ"
+      },
+      {
+        "order": 46,
+        "usfm": "1CO",
+        "name": "1ይ ቆሮንቶስ",
+        "abbreviation": "1 ቆሮ."
+      },
+      {
+        "order": 47,
+        "usfm": "2CO",
+        "name": "2ይ ቆሮንቶስ",
+        "abbreviation": "2 ቆሮ."
+      },
+      {
+        "order": 48,
+        "usfm": "GAL",
+        "name": "ገላትያ",
+        "abbreviation": "ገላ."
+      },
+      {
+        "order": 49,
+        "usfm": "EPH",
+        "name": "ኤፌሶን",
+        "abbreviation": "ኤፌ."
+      },
+      {
+        "order": 50,
+        "usfm": "PHP",
+        "name": "ፊልጵስዩስ",
+        "abbreviation": "ፊልጵ."
+      },
+      {
+        "order": 51,
+        "usfm": "COL",
+        "name": "ቈላስይስ",
+        "abbreviation": "ቈላ."
+      },
+      {
+        "order": 52,
+        "usfm": "1TH",
+        "name": "1ይ ተሰሎንቄ",
+        "abbreviation": "1 ተሰ."
+      },
+      {
+        "order": 53,
+        "usfm": "2TH",
+        "name": "2ይ ተሰሎንቄ",
+        "abbreviation": "2 ተሰ."
+      },
+      {
+        "order": 54,
+        "usfm": "1TI",
+        "name": "1ይ ጢሞቴዎስ",
+        "abbreviation": "1 ጢሞ."
+      },
+      {
+        "order": 55,
+        "usfm": "2TI",
+        "name": "2ይ ጢሞቴዎስ",
+        "abbreviation": "2 ጢሞ."
+      },
+      {
+        "order": 56,
+        "usfm": "TIT",
+        "name": "ቲቶ",
+        "abbreviation": "ቲቶ"
+      },
+      {
+        "order": 57,
+        "usfm": "PHM",
+        "name": "ፊልሞና",
+        "abbreviation": "ፊል."
+      },
+      {
+        "order": 58,
+        "usfm": "HEB",
+        "name": "ዕብራውያን",
+        "abbreviation": "ዕብ."
+      },
+      {
+        "order": 59,
+        "usfm": "JAS",
+        "name": "ያእቆብ",
+        "abbreviation": "ያቆ."
+      },
+      {
+        "order": 60,
+        "usfm": "1PE",
+        "name": "1ይ ጴጥሮስ",
+        "abbreviation": "1 ጴጥ."
+      },
+      {
+        "order": 61,
+        "usfm": "2PE",
+        "name": "2ይ ጴጥሮስ",
+        "abbreviation": "2 ጴጥ."
+      },
+      {
+        "order": 62,
+        "usfm": "1JN",
+        "name": "1ይ ዮሃንስ",
+        "abbreviation": "1 ዮሓ."
+      },
+      {
+        "order": 63,
+        "usfm": "2JN",
+        "name": "2ይ ዮሃንስ",
+        "abbreviation": "2 ዮሓ."
+      },
+      {
+        "order": 64,
+        "usfm": "3JN",
+        "name": "3ይ ዮሃንስ",
+        "abbreviation": "3 ዮሓ."
+      },
+      {
+        "order": 65,
+        "usfm": "JUD",
+        "name": "ይሁዳ",
+        "abbreviation": "ይሁዳ"
+      },
+      {
+        "order": 66,
+        "usfm": "REV",
+        "name": "ራእይ",
+        "abbreviation": "ራእይ"
+      }
+    ]
+  }
+}
