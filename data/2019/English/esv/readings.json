@@ -3958,7 +3958,7 @@
       "order": 3,
       "version": "esv",
       "section": "GOSPEL",
-      "reference": "Mark 11:25",
+      "reference": "Mark 11:25-26",
       "text": "<v>25</v> <red>And whenever</red><red>you stand praying,</red><red>forgive,</red><red>if you have anything against anyone, so that</red><red>your Father also who is in heaven may forgive you your trespasses.”</red>"
     },
     {
@@ -4007,7 +4007,7 @@
       "version": "esv",
       "section": "GOSPEL",
       "reference": "Mark 11:26",
-      "text": "<v>26</v> But if you do not forgive, neither will your Father who is in heaven forgive your trespasses"
+      "text": "<v>26</v> <red>But if you do not forgive, neither will your Father who is in heaven forgive your trespasses.</red>"
     }
   ]
 }
