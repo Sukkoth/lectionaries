@@ -30,7 +30,7 @@
             {
               "code": "nocv",
               "name": "ክታበ ቁልቁሉ፣ ሂካ አመያ ሃራ",
-              "contentVersion": 1,
+              "contentVersion": 2,
               "path": "2019/Afaan Oromoo/nocv/readings.json",
               "metadata": {
                 "publisher": "Biblica, Inc.",
@@ -40,7 +40,7 @@
             {
               "code": "macqul",
               "name": "Macaafa Qulqulluu Afaan Oromoo",
-              "contentVersion": 1,
+              "contentVersion": 10,
               "path": "2019/Afaan Oromoo/macqul/readings.json",
               "metadata": {
                 "publisher": "Bible Society of Ethiopia",
