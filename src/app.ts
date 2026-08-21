@@ -6,6 +6,34 @@ import { sanitizePath } from "./utils/security";
 
 const app = new Hono();
 
+// Structured JSON Logger Middleware
+app.use("*", async (c, next) => {
+  const start = performance.now();
+  const method = c.req.method.toUpperCase();
+  const path = c.req.path;
+  const userAgent = c.req.header("user-agent") || undefined;
+  const ip =
+    c.req.header("x-forwarded-for") || c.req.header("x-real-ip") || undefined;
+
+  await next();
+
+  const durationMs = Math.round((performance.now() - start) * 100) / 100;
+  const status = c.res.status;
+
+  const logPayload = {
+    timestamp: new Date().toISOString(),
+    level: status >= 500 ? "error" : status >= 400 ? "warn" : "info",
+    method,
+    path,
+    status,
+    durationMs,
+    userAgent,
+    ip,
+  };
+
+  console.log(JSON.stringify(logPayload));
+});
+
 // CORS Middleware
 app.use(
   "*",
