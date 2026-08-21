@@ -204,6 +204,66 @@ describe("Language Readings Validation Suite", () => {
 
             expect(errors).toEqual([]);
           });
+
+          test("reading items text contain well-formed <v> and <red> tags", async () => {
+            const data = (await file.json()) as ReadingsFile;
+            const errors: FieldValidationError[] = [];
+
+            if (data.readings) {
+              for (const item of data.readings) {
+                const text = item.text || "";
+
+                // 1. Check opening vs closing <v> / </v> tags
+                const openV = (text.match(/<v[\s>]/gi) || []).length;
+                const closeV = (text.match(/<\/v>/gi) || []).length;
+                if (openV !== closeV) {
+                  errors.push({
+                    file: relativePath,
+                    date: item.date,
+                    readingOrder: item.order,
+                    reference: item.reference,
+                    error: `Mismatched verse tags: found ${openV} opening <v> tags but ${closeV} closing </v> tags`,
+                  });
+                }
+
+                // 2. Check opening vs closing <red> / </red> tags
+                const openRed = (text.match(/<red[\s>]/gi) || []).length;
+                const closeRed = (text.match(/<\/red>/gi) || []).length;
+                if (openRed !== closeRed) {
+                  errors.push({
+                    file: relativePath,
+                    date: item.date,
+                    readingOrder: item.order,
+                    reference: item.reference,
+                    error: `Mismatched red-letter tags: found ${openRed} opening <red> tags but ${closeRed} closing </red> tags`,
+                  });
+                }
+
+                // 3. Disallowed or malformed HTML tags check
+                const allTags = text.match(/<[^>]+>/g) || [];
+                for (const tag of allTags) {
+                  const isValidTag =
+                    /^<v>[\d\s\-\,]+<\/v>$/i.test(tag) ||
+                    /^<v>$/i.test(tag) ||
+                    /^<\/v>$/i.test(tag) ||
+                    /^<red>$/i.test(tag) ||
+                    /^<\/red>$/i.test(tag);
+
+                  if (!isValidTag) {
+                    errors.push({
+                      file: relativePath,
+                      date: item.date,
+                      readingOrder: item.order,
+                      reference: item.reference,
+                      error: `Malformed or disallowed tag found in reading text: '${tag}'`,
+                    });
+                  }
+                }
+              }
+            }
+
+            expect(errors).toEqual([]);
+          });
         });
       }
     }
