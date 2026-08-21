@@ -77,20 +77,26 @@ describe("Scripture Verse Integrity Validation Suite", async () => {
             }[] = [];
 
             for (const match of matches) {
-              const rawTag = match[1].trim();
-              const rawText = match[2]
+              const rawTag = (match[1] ?? "").trim();
+              const rawText = (match[2] ?? "")
                 .replace(/<[^>]+>/g, "")
                 .replace(/\s+/g, " ")
                 .trim();
               const normText = rawText.toLowerCase();
 
               const parts = rawTag.split("-");
-              const start = Number.parseInt(parts[0], 10);
-              const end = parts[1] ? Number.parseInt(parts[1], 10) : start;
+              const startStr = parts[0] ?? "";
+              const endStr = parts[1] ?? startStr;
+              const start = Number.parseInt(startStr, 10);
+              const end = Number.parseInt(endStr, 10);
               const verses: number[] = [];
 
               if (!Number.isNaN(start)) {
-                for (let v = start; v <= end; v++) {
+                for (
+                  let v = start;
+                  v <= (Number.isNaN(end) ? start : end);
+                  v++
+                ) {
                   verses.push(v);
                   if (!verseMap.has(v)) {
                     verseMap.set(v, []);
@@ -127,6 +133,8 @@ describe("Scripture Verse Integrity Validation Suite", async () => {
               for (let j = i + 1; j < tagTextEntries.length; j++) {
                 const entryA = tagTextEntries[i];
                 const entryB = tagTextEntries[j];
+
+                if (!entryA || !entryB) continue;
 
                 const isAdjacentOrOverlap =
                   j === i + 1 ||
