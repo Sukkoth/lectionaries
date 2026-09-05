@@ -29,7 +29,7 @@
             },
             {
               "code": "nocv",
-              "name": "ክታበ ቁልቁሉ፣ ሂካ አመያ ሃራ",
+              "name": "ክታበ ቁልቁሉ ሳባ",
               "contentVersion": 1,
               "path": "2019/Afaan Oromoo/nocv/readings.json",
               "metadata": {
@@ -189,7 +189,7 @@
             },
             {
               "code": "am54",
-              "name": "መጽሐፍ ቅዱስ (የብሉይና የሐዲስ ኪዳን መጻሕፍት)",
+              "name": "መጽሐፍ ቅዱስ 1954",
               "contentVersion": 1,
               "path": "2019/አማርኛ/am54/readings.json",
               "metadata": {
