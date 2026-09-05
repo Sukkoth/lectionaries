@@ -36,7 +36,9 @@ interface ReadingsFile {
 
 interface BookInfo {
   order: number;
+  usfm: string;
   name: string;
+  abbreviation?: string;
 }
 
 interface VersionData {
@@ -50,7 +52,7 @@ interface ParsedRef {
   versionName: string;
   language: string;
   rawReference: string;
-  canonicalOrder: number | null;
+  usfmCode: string | null;
   chapter: number;
   startVerse: number | null;
   endVerse: number | null;
@@ -93,12 +95,15 @@ describe("Cross-Version Scripture Reference Consistency Validation Suite", async
   ).json()) as Record<string, VersionData>;
   const manifest = (await Bun.file("data/manifest.json").json()) as Manifest;
 
-  // Build version book map: code -> Map<lowerName, order>
-  const versionBookMap = new Map<string, Map<string, number>>();
+  // Build version book map: code -> Map<lowerNameOrAbbr, usfmCode>
+  const versionBookMap = new Map<string, Map<string, string>>();
   for (const [key, ver] of Object.entries(versionsData)) {
-    const bMap = new Map<string, number>();
+    const bMap = new Map<string, string>();
     for (const b of ver.books) {
-      bMap.set(b.name.trim().toLowerCase(), b.order);
+      bMap.set(b.name.trim().toLowerCase(), b.usfm.toUpperCase());
+      if (b.abbreviation) {
+        bMap.set(b.abbreviation.trim().toLowerCase(), b.usfm.toUpperCase());
+      }
     }
     versionBookMap.set(key, bMap);
     if (ver.versionCode) {
@@ -120,17 +125,18 @@ describe("Cross-Version Scripture Reference Consistency Validation Suite", async
     const startVerse = match[3] ? Number.parseInt(match[3], 10) : null;
     const endVerse = match[4] ? Number.parseInt(match[4], 10) : startVerse;
 
-    const bMap = versionBookMap.get(verCode) || versionBookMap.get("አማ54");
-    const canonicalOrder = bMap
-      ? (bMap.get(rawBook.toLowerCase()) ?? null)
-      : null;
+    const bMap =
+      versionBookMap.get(verCode) ||
+      versionBookMap.get("macqul") ||
+      versionBookMap.get("አማ54");
+    const usfmCode = bMap ? (bMap.get(rawBook.toLowerCase()) ?? null) : null;
 
     return {
       versionCode: verCode,
       versionName: verName,
       language: langName,
       rawReference: ref,
-      canonicalOrder,
+      usfmCode,
       chapter,
       startVerse,
       endVerse,
@@ -179,17 +185,19 @@ describe("Cross-Version Scripture Reference Consistency Validation Suite", async
         const section = parts[2] ?? "";
         const readingOrder = Number.parseInt(orderStr, 10);
 
-        const refVersion = refs.find((r) => r.versionCode === "esv") || refs[0];
+        // Primary Baseline Reference Version: macqul (Macaafa Qulqulluu Afaan Oromoo)
+        const refVersion =
+          refs.find((r) => r.versionCode === "macqul") || refs[0];
         if (!refVersion) continue;
 
         for (const target of refs) {
           if (target === refVersion) continue;
 
-          // Check 1: Canonical Book Mismatch (Fatal Error)
+          // Check 1: Canonical USFM Book Mismatch (Fatal Error)
           if (
-            refVersion.canonicalOrder !== null &&
-            target.canonicalOrder !== null &&
-            refVersion.canonicalOrder !== target.canonicalOrder
+            refVersion.usfmCode !== null &&
+            target.usfmCode !== null &&
+            refVersion.usfmCode !== target.usfmCode
           ) {
             errors.push({
               year,
@@ -197,7 +205,7 @@ describe("Cross-Version Scripture Reference Consistency Validation Suite", async
               readingOrder,
               section,
               type: "book_mismatch",
-              error: `[Book Mismatch] ${refVersion.language} (${refVersion.versionCode}) has book #${refVersion.canonicalOrder} ('${refVersion.rawReference}'), but ${target.language} (${target.versionCode}) has book #${target.canonicalOrder} ('${target.rawReference}')`,
+              error: `[Book Mismatch] ${refVersion.language} (${refVersion.versionCode}) has book USFM '${refVersion.usfmCode}' ('${refVersion.rawReference}'), but ${target.language} (${target.versionCode}) has book USFM '${target.usfmCode}' ('${target.rawReference}')`,
             });
             continue;
           }
