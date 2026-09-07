@@ -2426,403 +2426,403 @@
   "nocv": {
     "versionCode": "nocv",
     "versionId": 3725,
-    "versionName": "ክታበ ቁልቁሉ፣ ሂካ አመያ ሃራ",
+    "versionName": "ክታበ ቁልቁሉ ሳባ",
     "language": "gaz",
     "books": [
       {
         "order": 1,
         "usfm": "GEN",
-        "name": "ኡመመ",
+        "name": "ሴረ ኡመማ",
         "abbreviation": "ኡመ"
       },
       {
         "order": 2,
         "usfm": "EXO",
-        "name": "በኡ",
-        "abbreviation": "በኡ"
+        "name": "ሴረ በኡ",
+        "abbreviation": "በኤ"
       },
       {
         "order": 3,
         "usfm": "LEV",
-        "name": "ሌዎተ",
+        "name": "ሴረ ሌዎታ",
         "abbreviation": "ሌዎ"
       },
       {
         "order": 4,
         "usfm": "NUM",
-        "name": "ለኮብሰ",
+        "name": "ሴረ ለኮብላ",
         "abbreviation": "ለኮ"
       },
       {
         "order": 5,
         "usfm": "DEU",
-        "name": "ኬሰ ዴቢ",
-        "abbreviation": "ኬዴ"
+        "name": "ሴረ ኬሰ ዴቢ",
+        "abbreviation": "ኬሰ"
       },
       {
         "order": 6,
         "usfm": "JOS",
-        "name": "እያሱ",
-        "abbreviation": "እያ"
+        "name": "መጫፈ ኢያሱ",
+        "abbreviation": "ኢያ"
       },
       {
         "order": 7,
         "usfm": "JDG",
-        "name": "አቦቲ ሙርቲ",
-        "abbreviation": "አቦሙ"
+        "name": "መጫፈ አቦተ ፍርዲ",
+        "abbreviation": "አቦ"
       },
       {
         "order": 8,
         "usfm": "RUT",
-        "name": "ሩት",
+        "name": "መጫፈ ሩት",
         "abbreviation": "ሩት"
       },
       {
         "order": 9,
         "usfm": "1SA",
-        "name": "1 ሳሙኤል",
+        "name": "መጫፈ ሳሙኤል እሰ ዱራ",
         "abbreviation": "1ሳሙ"
       },
       {
         "order": 10,
         "usfm": "2SA",
-        "name": "2 ሳሙኤል",
+        "name": "መጫፈ ሳሙኤል እሰ ለመፋ",
         "abbreviation": "2ሳሙ"
       },
       {
         "order": 11,
         "usfm": "1KI",
-        "name": "1 ሞቶተ",
+        "name": "መጫፈ ሞቶታ እሰ ዱራ",
         "abbreviation": "1ሞቶ"
       },
       {
         "order": 12,
         "usfm": "2KI",
-        "name": "2 ሞቶተ",
+        "name": "መጫፈ ሞቶታ እሰ ለመፋ",
         "abbreviation": "2ሞቶ"
       },
       {
         "order": 13,
         "usfm": "1CH",
-        "name": "1 ሴና",
+        "name": "መጫፈ ሴና በራ እሰ ዱራ",
         "abbreviation": "1ሴና"
       },
       {
         "order": 14,
         "usfm": "2CH",
-        "name": "2 ሴና",
+        "name": "መጫፈ ሴና በራ እሰ ለመፋ",
         "abbreviation": "2ሴና"
       },
       {
         "order": 15,
         "usfm": "EZR",
-        "name": "እዝራ",
+        "name": "መጫፈ እዝራ",
         "abbreviation": "እዝ"
       },
       {
         "order": 16,
         "usfm": "NEH",
-        "name": "ነህምያ",
+        "name": "መጫፈ ነህሚያ",
         "abbreviation": "ነህ"
       },
       {
         "order": 17,
         "usfm": "EST",
-        "name": "አስቴር",
+        "name": "መጫፈ አስቴር",
         "abbreviation": "አስ"
       },
       {
         "order": 18,
         "usfm": "JOB",
-        "name": "እዮብ",
+        "name": "መጫፈ ኢዮብ",
         "abbreviation": "ኢዮ"
       },
       {
         "order": 19,
         "usfm": "PSA",
-        "name": "ፋርፈትና",
+        "name": "መጫፈ ፋርፈኖታ",
         "abbreviation": "ፋር"
       },
       {
         "order": 20,
         "usfm": "PRO",
-        "name": "ፈኬኘ",
+        "name": "መጫፈ ፈኬኛ",
         "abbreviation": "ፈኬ"
       },
       {
         "order": 21,
         "usfm": "ECC",
-        "name": "ለለበ",
+        "name": "መጫፈ ለለባ",
         "abbreviation": "ለለ"
       },
       {
         "order": 22,
         "usfm": "SNG",
-        "name": "ዌዱ",
+        "name": "መጫፈ ዌዱ ዌዱ ጫሉ",
         "abbreviation": "ዌዱ"
       },
       {
         "order": 23,
         "usfm": "ISA",
-        "name": "እሳያስ",
-        "abbreviation": "እሳ"
+        "name": "መጫፈ ኢሳያስ ራጅቻ",
+        "abbreviation": "ኢሳ"
       },
       {
         "order": 24,
         "usfm": "JER",
-        "name": "ኤርምያስ",
+        "name": "መጫፈ ኤርምያስ ራጅቻ",
         "abbreviation": "ኤር"
       },
       {
         "order": 25,
         "usfm": "LAM",
-        "name": "ፋሩ",
+        "name": "መጫፈ ፋሩ ኤርምያስ",
         "abbreviation": "ፋሩ"
       },
       {
         "order": 26,
         "usfm": "EZK",
-        "name": "ህስቅኤል",
+        "name": "መጫፈ ህስቅኤል ራጅቻ",
         "abbreviation": "ህስ"
       },
       {
         "order": 27,
         "usfm": "DAN",
-        "name": "ዳንኤል",
+        "name": "መጫፈ ዳንኤል ራጅቻ",
         "abbreviation": "ዳን"
       },
       {
         "order": 28,
         "usfm": "HOS",
-        "name": "ሆሴኣ",
+        "name": "መጫፈ ሆሴአ ራጅቻ",
         "abbreviation": "ሆሴ"
       },
       {
         "order": 29,
         "usfm": "JOL",
-        "name": "ዮኤል",
+        "name": "መጫፈ ዮኤል ራጅቻ",
         "abbreviation": "ዮኤ"
       },
       {
         "order": 30,
         "usfm": "AMO",
-        "name": "አሞስ",
+        "name": "መጫፈ አሞስ ራጅቻ",
         "abbreviation": "አሞ"
       },
       {
         "order": 31,
         "usfm": "OBA",
-        "name": "ኦባድያ",
-        "abbreviation": "አብድ"
+        "name": "መጫፈ ኦባዲያ ራጅቻ",
+        "abbreviation": "ኦባ"
       },
       {
         "order": 32,
         "usfm": "JON",
-        "name": "ዮናስ",
+        "name": "መጫፈ ዮናስ ራጅቻ",
         "abbreviation": "ዮና"
       },
       {
         "order": 33,
         "usfm": "MIC",
-        "name": "ሚክያስ",
+        "name": "መጫፈ ሚክያስ ራጅቻ",
         "abbreviation": "ሚክ"
       },
       {
         "order": 34,
         "usfm": "NAM",
-        "name": "ነሆም",
+        "name": "መጫፈ ናሆም ራጅቻ",
         "abbreviation": "ናሆ"
       },
       {
         "order": 35,
         "usfm": "HAB",
-        "name": "አንባቆም",
-        "abbreviation": "አንባ"
+        "name": "መጫፈ እንባቆም ራጅቻ",
+        "abbreviation": "እን"
       },
       {
         "order": 36,
         "usfm": "ZEP",
-        "name": "ሴፋንያ",
+        "name": "መጫፈ ሴፋንያ ራጅቻ",
         "abbreviation": "ሴፋ"
       },
       {
         "order": 37,
         "usfm": "HAG",
-        "name": "ሃጌ",
+        "name": "መጫፈ ሃጌ ራጅቻ",
         "abbreviation": "ሃጌ"
       },
       {
         "order": 38,
         "usfm": "ZEC",
-        "name": "ዘካርያስ",
+        "name": "መጫፈ ዘካርያስ ራጅቻ",
         "abbreviation": "ዘካ"
       },
       {
         "order": 39,
         "usfm": "MAL",
-        "name": "ሚልክያስ",
+        "name": "መጫፈ ሚልክያስ ራጅቻ",
         "abbreviation": "ሚል"
       },
       {
         "order": 40,
         "usfm": "MAT",
-        "name": "ማቴዎስ",
+        "name": "ወንጌለ ማቴዎስ",
         "abbreviation": "ማቴ"
       },
       {
         "order": 41,
         "usfm": "MRK",
-        "name": "ማርቆስ",
+        "name": "ወንጌለ ማርቆስ",
         "abbreviation": "ማር"
       },
       {
         "order": 42,
         "usfm": "LUK",
-        "name": "ሉቃስ",
+        "name": "ወንጌለ ሉቃስ",
         "abbreviation": "ሉቃ"
       },
       {
         "order": 43,
         "usfm": "JHN",
-        "name": "ዮሀንስ",
+        "name": "ወንጌለ ዮሀንስ",
         "abbreviation": "ዮሀ"
       },
       {
         "order": 44,
         "usfm": "ACT",
-        "name": "ሆጂ",
-        "abbreviation": "ሆጂ"
+        "name": "ሆጂ ኤርጋሞታ",
+        "abbreviation": "ሆኤ"
       },
       {
         "order": 45,
         "usfm": "ROM",
-        "name": "ሮማ",
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ሮማት ኤርጌ",
         "abbreviation": "ሮማ"
       },
       {
         "order": 46,
         "usfm": "1CO",
-        "name": "1 ቆሮንቶስ",
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ቆሮንቶስት ኤርጌ እሰ ዱራ",
         "abbreviation": "1ቆሮ"
       },
       {
         "order": 47,
         "usfm": "2CO",
-        "name": "2 ቆሮንቶስ",
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ቆሮንቶስት ኤርጌ እሰ ለመፋ",
         "abbreviation": "2ቆሮ"
       },
       {
         "order": 48,
         "usfm": "GAL",
-        "name": "ገላትያ",
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ገላትያት ኤርጌ",
         "abbreviation": "ገላ"
       },
       {
         "order": 49,
         "usfm": "EPH",
-        "name": "ኤፌሶን",
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ኤፌሶንት ኤርጌ",
         "abbreviation": "ኤፌ"
       },
       {
         "order": 50,
         "usfm": "PHP",
-        "name": "ፊልጵስዩስ",
-        "abbreviation": "ፊል"
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ፊሊጲስዮስት ኤርጌ",
+        "abbreviation": "ፊሊ"
       },
       {
         "order": 51,
         "usfm": "COL",
-        "name": "ቆሎሳይስ",
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ቆሎሳይስት ኤርጌ",
         "abbreviation": "ቆሎ"
       },
       {
         "order": 52,
         "usfm": "1TH",
-        "name": "1 ተሰሎኒቄ",
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ተሰሎኒቄት ኤርጌ እሰ ዱራ",
         "abbreviation": "1ተሰ"
       },
       {
         "order": 53,
         "usfm": "2TH",
-        "name": "2 ተሰሎኒቄ",
+        "name": "ኤርጋ ጳውሎስ ገረ ወረ ተሰሎኒቄት ኤርጌ እሰ ለመፋ",
         "abbreviation": "2ተሰ"
       },
       {
         "order": 54,
         "usfm": "1TI",
-        "name": "1 ጢሞቴዎስ",
+        "name": "ኤርጋ ጳውሎስ ገረ ጢሞቴዎስት ኤርጌ እሰ ዱራ",
         "abbreviation": "1ጢሞ"
       },
       {
         "order": 55,
         "usfm": "2TI",
-        "name": "2 ጢሞቴዎስ",
+        "name": "ኤርጋ ጳውሎስ ገረ ጢሞቴዎስት ኤርጌ እሰ ለመፋ",
         "abbreviation": "2ጢሞ"
       },
       {
         "order": 56,
         "usfm": "TIT",
-        "name": "ቲቶ",
+        "name": "ኤርጋ ጳውሎስ ገረ ቲቶስት ኤርጌ",
         "abbreviation": "ቲቶ"
       },
       {
         "order": 57,
         "usfm": "PHM",
-        "name": "ፊልሞና",
-        "abbreviation": "ፊሞ"
+        "name": "ኤርጋ ጳውሎስ ገረ ፊሌሞንት ኤርጌ",
+        "abbreviation": "ፊሌ"
       },
       {
         "order": 58,
         "usfm": "HEB",
-        "name": "እብሮተ",
-        "abbreviation": "እብሮ"
+        "name": "ኤርጋ ገረ እብሮታት ኤርጋመ",
+        "abbreviation": "እብ"
       },
       {
         "order": 59,
         "usfm": "JAS",
-        "name": "ያቆብ",
+        "name": "ኤርጋ ያቆብ ኤርጌ",
         "abbreviation": "ያቆ"
       },
       {
         "order": 60,
         "usfm": "1PE",
-        "name": "1 ጴጥሮስ",
+        "name": "ኤርጋ ጴጥሮስ ኤርጌ እሰ ዱራ",
         "abbreviation": "1ጴጥ"
       },
       {
         "order": 61,
         "usfm": "2PE",
-        "name": "2 ጴጥሮስ",
+        "name": "ኤርጋ ጴጥሮስ ኤርጌ እሰ ለመፋ",
         "abbreviation": "2ጴጥ"
       },
       {
         "order": 62,
         "usfm": "1JN",
-        "name": "1 ዮሀንስ",
-        "abbreviation": "1ዮሀ"
+        "name": "ኤርጋ ዮሀንስ ኤርጌ እሰ ዱራ",
+        "abbreviation": "1ዮሐ"
       },
       {
         "order": 63,
         "usfm": "2JN",
-        "name": "2 ዮሀንስ",
-        "abbreviation": "2ዮሀ"
+        "name": "ኤርጋ ዮሀንስ ኤርጌ እሰ ለመፋ",
+        "abbreviation": "2ዮሐ"
       },
       {
         "order": 64,
         "usfm": "3JN",
-        "name": "3 ዮሀንስ",
-        "abbreviation": "3ዮሀ"
+        "name": "ኤርጋ ዮሀንስ ኤርጌ እሰ ሰደፋ",
+        "abbreviation": "3ዮሐ"
       },
       {
         "order": 65,
         "usfm": "JUD",
-        "name": "ይሁዳ",
+        "name": "ኤርጋ ይሁዳን ኤርጌ",
         "abbreviation": "ይሁ"
       },
       {
         "order": 66,
         "usfm": "REV",
-        "name": "ሙልአተ",
+        "name": "ሙልአተ ዮሀንስት ሙልአቴ",
         "abbreviation": "ሙል"
       }
     ]
