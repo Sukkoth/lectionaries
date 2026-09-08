@@ -1086,13 +1086,13 @@
       {
         "order": 46,
         "usfm": "1CO",
-        "name": "ወደ ቆሮንቶስ ሰዎች ፩",
+        "name": "፩ ወደ ቆሮንቶስ ሰዎች",
         "abbreviation": "1ቆሮ."
       },
       {
         "order": 47,
         "usfm": "2CO",
-        "name": "ወደ ቆሮንቶስ ሰዎች ፪",
+        "name": "፪ ወደ ቆሮንቶስ ሰዎች",
         "abbreviation": "2ቆሮ."
       },
       {
@@ -1122,25 +1122,25 @@
       {
         "order": 52,
         "usfm": "1TH",
-        "name": "ወደ ተሰሎንቄ ሰዎች ፩",
+        "name": "፩ ወደ ተሰሎንቄ ሰዎች",
         "abbreviation": "1ተሰ."
       },
       {
         "order": 53,
         "usfm": "2TH",
-        "name": "ወደ ተሰሎንቄ ሰዎች ፪",
+        "name": "፪ ወደ ተሰሎንቄ ሰዎች",
         "abbreviation": "2ተሰ."
       },
       {
         "order": 54,
         "usfm": "1TI",
-        "name": "ወደ ጢሞቴዎስ ፩",
+        "name": "፩ ወደ ጢሞቴዎስ",
         "abbreviation": "1ጢሞ."
       },
       {
         "order": 55,
         "usfm": "2TI",
-        "name": "ወደ ጢሞቴዎስ ፪",
+        "name": "፪ ወደ ጢሞቴዎስ",
         "abbreviation": "2ጢሞ."
       },
       {
@@ -1164,31 +1164,31 @@
       {
         "order": 59,
         "usfm": "1PE",
-        "name": "የጴጥሮስ መልእክት ፩",
+        "name": "፩ የጴጥሮስ መልእክት",
         "abbreviation": "1ጴጥ."
       },
       {
         "order": 60,
         "usfm": "2PE",
-        "name": "የጴጥሮስ መልእክት ፪",
+        "name": "፪ የጴጥሮስ መልእክት",
         "abbreviation": "2ጴጥ."
       },
       {
         "order": 61,
         "usfm": "1JN",
-        "name": "የዮሐንስ መልእክት ፩",
+        "name": "፩ የዮሐንስ መልእክት",
         "abbreviation": "1ዮሐ."
       },
       {
         "order": 62,
         "usfm": "2JN",
-        "name": "የዮሐንስ መልእክት ፪",
+        "name": "፪ የዮሐንስ መልእክት",
         "abbreviation": "2ዮሐ."
       },
       {
         "order": 63,
         "usfm": "3JN",
-        "name": "የዮሐንስ መልእክት ፫",
+        "name": "፫ የዮሐንስ መልእክት",
         "abbreviation": "3ዮሐ."
       },
       {
