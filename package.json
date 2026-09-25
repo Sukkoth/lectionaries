@@ -5,7 +5,10 @@
   "private": true,
   "scripts": {
     "start": "bun run ./dist/server.js",
-    "dev": "bun --watch run server.ts",
+    "dev": "bun --watch run server.ts | jq -R -r '. as $line | try fromjson catch $line'",
+    "dev:raw": "bun --watch run server.ts",
+    "dev:bot": "bun --watch run src/telegram/poll.ts",
+    "db:migrate": "bun run src/db/migrate.ts",
     "build": "bun build ./server.ts --target bun --outdir ./dist && cp -r data dist/",
     "test": "bun test",
     "lint": "eslint .",
@@ -25,6 +28,9 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "hono": "^4.13.3"
+    "hono": "^4.13.3",
+    "kenat": "^1.1.7",
+    "pino": "^9.6.0",
+    "postgres": "^3.4.5"
   }
 }
