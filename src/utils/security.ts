@@ -16,7 +16,6 @@ export function sanitizePath(
   try {
     const decodedPath = decodeURIComponent(pathname);
 
-    // Explicitly reject paths with parent directory traversal segments ("..")
     const hasTraversal = decodedPath
       .split(/[\/\\]/)
       .some((segment) => segment === "..");
