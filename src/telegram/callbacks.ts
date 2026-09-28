@@ -236,7 +236,6 @@ export async function handleCallbackQuery(
     if (parsed) {
       await updateSubscriptionSettings(chatId, {
         postTimeUtc: parsed.utcTime,
-        postHourUtc: parsed.utcHour,
       });
 
       botLogger.info(
