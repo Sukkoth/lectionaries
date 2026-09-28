@@ -413,12 +413,10 @@ export async function handleSetTimeCommand(
       chatId: numericChatId,
       chatType: "channel",
       postTimeUtc: parsed.utcTime,
-      postHourUtc: parsed.utcHour,
     });
   } else {
     await updateSubscriptionSettings(numericChatId, {
       postTimeUtc: parsed.utcTime,
-      postHourUtc: parsed.utcHour,
     });
   }
 

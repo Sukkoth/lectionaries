@@ -56,10 +56,6 @@ export const CRON_SECRET = process.env.CRON_SECRET || "";
  */
 export const DEFAULT_TIMEZONE =
   process.env.DEFAULT_TIMEZONE || "Africa/Addis_Ababa";
-export const DEFAULT_POST_HOUR_UTC = Number.parseInt(
-  process.env.DEFAULT_POST_HOUR_UTC || "3",
-  10
-);
 
 /**
  * Superadmin Telegram user ID for critical alerts, failures, and system monitoring.

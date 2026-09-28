@@ -7,7 +7,6 @@ export interface TelegramSubscription {
   language_code: string;
   version_code: string;
   post_time_utc: string;
-  post_hour_utc: number;
   timezone: string;
   is_active: boolean;
   created_at: Date;
@@ -21,7 +20,6 @@ export interface SubscriptionInput {
   languageCode?: string;
   versionCode?: string;
   postTimeUtc?: string;
-  postHourUtc?: number;
   timezone?: string;
 }
 
@@ -29,7 +27,6 @@ export interface SubscriptionSettings {
   languageCode?: string;
   versionCode?: string;
   postTimeUtc?: string;
-  postHourUtc?: number;
   timezone?: string;
   isActive?: boolean;
 }
@@ -49,7 +46,6 @@ export async function getSubscription(
       language_code,
       version_code,
       COALESCE(post_time_utc, '05:30') as post_time_utc,
-      post_hour_utc,
       timezone,
       is_active,
       created_at,
@@ -72,7 +68,6 @@ export async function upsertSubscription(
   const languageCode = input.languageCode || "en";
   const versionCode = input.versionCode || "esv";
   const postTimeUtc = input.postTimeUtc || "05:30";
-  const postHourUtc = input.postHourUtc ?? 5;
   const timezone = input.timezone || "Africa/Addis_Ababa";
   const chatTitle = input.chatTitle || null;
 
@@ -84,7 +79,6 @@ export async function upsertSubscription(
       language_code,
       version_code,
       post_time_utc,
-      post_hour_utc,
       timezone,
       is_active,
       updated_at
@@ -95,7 +89,6 @@ export async function upsertSubscription(
       ${languageCode},
       ${versionCode},
       ${postTimeUtc},
-      ${postHourUtc},
       ${timezone},
       true,
       NOW()
@@ -112,7 +105,6 @@ export async function upsertSubscription(
       language_code,
       version_code,
       COALESCE(post_time_utc, '05:30') as post_time_utc,
-      post_hour_utc,
       timezone,
       is_active,
       created_at,
@@ -143,7 +135,6 @@ export async function updateSubscriptionSettings(
   const languageCode = settings.languageCode ?? current.language_code;
   const versionCode = settings.versionCode ?? current.version_code;
   const postTimeUtc = settings.postTimeUtc ?? current.post_time_utc;
-  const postHourUtc = settings.postHourUtc ?? current.post_hour_utc;
   const timezone = settings.timezone ?? current.timezone;
   const isActive = settings.isActive ?? current.is_active;
 
@@ -153,7 +144,6 @@ export async function updateSubscriptionSettings(
       language_code = ${languageCode},
       version_code = ${versionCode},
       post_time_utc = ${postTimeUtc},
-      post_hour_utc = ${postHourUtc},
       timezone = ${timezone},
       is_active = ${isActive},
       updated_at = NOW()
@@ -165,7 +155,6 @@ export async function updateSubscriptionSettings(
       language_code,
       version_code,
       COALESCE(post_time_utc, '05:30') as post_time_utc,
-      post_hour_utc,
       timezone,
       is_active,
       created_at,
@@ -208,11 +197,10 @@ export async function migrateChatId(
 }
 
 /**
- * Retrieves all active subscriptions scheduled for a specific UTC time string (HH:mm) or UTC hour.
+ * Retrieves all active subscriptions scheduled for a specific UTC time string (HH:mm, e.g. '05:30').
  */
-export async function getActiveSubscriptionsByTimeOrHour(
-  utcTime: string,
-  utcHour: number
+export async function getActiveSubscriptionsBySlotTime(
+  utcTime: string
 ): Promise<TelegramSubscription[]> {
   const sql = getDb();
   const rows = await sql<TelegramSubscription[]>`
@@ -223,14 +211,13 @@ export async function getActiveSubscriptionsByTimeOrHour(
       language_code,
       version_code,
       COALESCE(post_time_utc, '05:30') as post_time_utc,
-      post_hour_utc,
       timezone,
       is_active,
       created_at,
       updated_at
     FROM telegram_subscriptions
     WHERE is_active = true
-      AND (post_time_utc = ${utcTime} OR post_hour_utc = ${utcHour})
+      AND post_time_utc = ${utcTime}
   `;
 
   return rows;

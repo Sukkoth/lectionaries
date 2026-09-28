@@ -2,7 +2,7 @@ import type { Context } from "hono";
 import { CRON_SECRET } from "../config";
 import {
   deactivateSubscription,
-  getActiveSubscriptionsByTimeOrHour,
+  getActiveSubscriptionsBySlotTime,
   migrateChatId,
 } from "../db/subscriptions";
 import {
@@ -64,24 +64,20 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
 
   const startTime = performance.now();
   const now = new Date();
-  const currentUtcHour = getCurrentUtcHour(now);
   const currentUtcTime = getClosestUtcSlotTime(now);
 
   cronLogger.info(
-    `[Cron] Job received. Querying subscribers for UTC slot ${currentUtcTime} (hour ${currentUtcHour})...`
+    `[Cron] Job received. Querying subscribers for UTC slot ${currentUtcTime}...`
   );
 
-  let subscriptions: Awaited<ReturnType<typeof getActiveSubscriptionsByTimeOrHour>> = [];
+  let subscriptions: Awaited<ReturnType<typeof getActiveSubscriptionsBySlotTime>> = [];
   try {
-    subscriptions = await getActiveSubscriptionsByTimeOrHour(
-      currentUtcTime,
-      currentUtcHour
-    );
+    subscriptions = await getActiveSubscriptionsBySlotTime(currentUtcTime);
   } catch (err) {
     cronLogger.error({ err }, "[Cron] Failed to fetch active subscriptions from database");
     notifyAdmin({
       title: "Cron Database Query Failure",
-      message: `Failed to fetch active subscriptions for slot ${currentUtcTime} (hour ${currentUtcHour})`,
+      message: `Failed to fetch active subscriptions for slot ${currentUtcTime}`,
       level: "CRITICAL",
       error: err,
     }).catch(() => {});
@@ -96,7 +92,6 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
     return c.json({
       ok: true,
       utcTime: currentUtcTime,
-      utcHour: currentUtcHour,
       totalEligible: 0,
       success: 0,
       failed: 0,
@@ -239,7 +234,6 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
   return c.json({
     ok: true,
     utcTime: currentUtcTime,
-    utcHour: currentUtcHour,
     totalEligible: subscriptions.length,
     success: successCount,
     failed: failedCount,
