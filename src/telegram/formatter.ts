@@ -164,8 +164,7 @@ export async function buildDailyMessage(
     const dayInfoFile = Bun.file(join(DATA_DIR, matchedLang.dayInfo.path));
     if (await dayInfoFile.exists()) {
       const dayInfoData = (await dayInfoFile.json()) as DayInfoFile;
-      dayInfoItem =
-        dayInfoData.dayInfo.find((d) => d.date === dateStr) || null;
+      dayInfoItem = dayInfoData.dayInfo.find((d) => d.date === dateStr) || null;
     }
   } catch {
     dayInfoItem = null;

@@ -44,7 +44,8 @@ export const DATABASE_URL = process.env.DATABASE_URL || "";
  * Telegram Bot API configuration parameters.
  */
 export const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "";
-export const TELEGRAM_WEBHOOK_SECRET = process.env.TELEGRAM_WEBHOOK_SECRET || "";
+export const TELEGRAM_WEBHOOK_SECRET =
+  process.env.TELEGRAM_WEBHOOK_SECRET || "";
 
 /**
  * Secret token used to authenticate Vercel Cron trigger requests.
@@ -56,10 +57,6 @@ export const CRON_SECRET = process.env.CRON_SECRET || "";
  */
 export const DEFAULT_TIMEZONE =
   process.env.DEFAULT_TIMEZONE || "Africa/Addis_Ababa";
-export const DEFAULT_POST_HOUR_UTC = Number.parseInt(
-  process.env.DEFAULT_POST_HOUR_UTC || "3",
-  10
-);
 
 /**
  * Superadmin Telegram user ID for critical alerts, failures, and system monitoring.

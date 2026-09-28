@@ -216,7 +216,10 @@ export async function handleCallbackQuery(
     const ver = sub?.version_code || "esv";
     const tz = sub?.timezone || "Africa/Addis_Ababa";
 
-    botLogger.info({ chatId, lang, ver }, "Today preview requested via inline button");
+    botLogger.info(
+      { chatId, lang, ver },
+      "Today preview requested via inline button"
+    );
 
     const todayStr = getFormattedDateInTimezone(new Date(), tz);
     const result = await buildDailyMessage(todayStr, lang, ver);
@@ -233,7 +236,6 @@ export async function handleCallbackQuery(
     if (parsed) {
       await updateSubscriptionSettings(chatId, {
         postTimeUtc: parsed.utcTime,
-        postHourUtc: parsed.utcHour,
       });
 
       botLogger.info(

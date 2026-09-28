@@ -44,4 +44,3 @@ if (process.env.NODE_ENV !== "production" && TELEGRAM_BOT_TOKEN) {
 }
 
 export default server;
-
