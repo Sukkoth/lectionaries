@@ -1,5 +1,8 @@
 import { TELEGRAM_BOT_TOKEN } from "../config";
-import { deactivateSubscription, upsertSubscription } from "../db/subscriptions";
+import {
+  deactivateSubscription,
+  upsertSubscription,
+} from "../db/subscriptions";
 import { botLogger } from "../utils/logger";
 import { handleCallbackQuery } from "./callbacks";
 import { deleteWebhook, sendMessage } from "./client";
@@ -85,7 +88,10 @@ async function processUpdate(update: TelegramUpdate): Promise<void> {
         }
       } else if (newStatus === "left" || newStatus === "kicked") {
         await deactivateSubscription(chat.id);
-        botLogger.info({ chatId: chat.id }, "Deactivated subscription for chat (poller)");
+        botLogger.info(
+          { chatId: chat.id },
+          "Deactivated subscription for chat (poller)"
+        );
       }
       return;
     }
@@ -176,7 +182,10 @@ export async function startTelegramPoller(): Promise<void> {
           await processUpdate(update);
         }
       } else if (res.description) {
-        botLogger.warn({ description: res.description }, "Polling notice from Telegram API");
+        botLogger.warn(
+          { description: res.description },
+          "Polling notice from Telegram API"
+        );
         await new Promise((r) => setTimeout(r, 2000));
       }
     } catch (err) {

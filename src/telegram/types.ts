@@ -32,12 +32,7 @@ export interface TelegramMessage {
 export interface TelegramChatMember {
   user: TelegramUser;
   status:
-    | "creator"
-    | "administrator"
-    | "member"
-    | "restricted"
-    | "left"
-    | "kicked";
+    "creator" | "administrator" | "member" | "restricted" | "left" | "kicked";
 }
 
 export interface TelegramChatMemberUpdated {

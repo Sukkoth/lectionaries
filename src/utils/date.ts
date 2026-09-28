@@ -79,7 +79,14 @@ export function parseLocalTimeToUtc(
   try {
     const now = new Date();
     const testDate = new Date(
-      Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 12, 0, 0)
+      Date.UTC(
+        now.getUTCFullYear(),
+        now.getUTCMonth(),
+        now.getUTCDate(),
+        12,
+        0,
+        0
+      )
     );
 
     const formatter = new Intl.DateTimeFormat("en-US", {
@@ -123,7 +130,14 @@ export function formatUtcToLocalTime(
   try {
     const now = new Date();
     const testDate = new Date(
-      Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 12, 0, 0)
+      Date.UTC(
+        now.getUTCFullYear(),
+        now.getUTCMonth(),
+        now.getUTCDate(),
+        12,
+        0,
+        0
+      )
     );
 
     const formatter = new Intl.DateTimeFormat("en-US", {

@@ -70,7 +70,15 @@ export const ETHIOPIAN_MONTH_NAMES: Record<string, string[]> = {
  */
 export const LOCALIZED_DAY_NAMES: Record<string, string[]> = {
   am: ["እሑድ", "ሰኞ", "ማክሰኞ", "ረቡዕ", "ሐሙስ", "ዓርብ", "ቅዳሜ"],
-  om: ["Dilbata", "Wiixata", "Qibxata", "Roobii", "Kamiisa", "Jimmata", "Sanbata"],
+  om: [
+    "Dilbata",
+    "Wiixata",
+    "Qibxata",
+    "Roobii",
+    "Kamiisa",
+    "Jimmata",
+    "Sanbata",
+  ],
 };
 
 /**

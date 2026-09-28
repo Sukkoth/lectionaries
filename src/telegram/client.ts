@@ -18,7 +18,9 @@ async function callTelegramApi<T>(
   payload?: Record<string, unknown>
 ): Promise<TelegramApiResponse<T>> {
   if (!TELEGRAM_BOT_TOKEN) {
-    botLogger.warn(`[Telegram API] Attempted to call ${method} without TELEGRAM_BOT_TOKEN`);
+    botLogger.warn(
+      `[Telegram API] Attempted to call ${method} without TELEGRAM_BOT_TOKEN`
+    );
     return {
       ok: false,
       description: "TELEGRAM_BOT_TOKEN is not configured",
@@ -44,7 +46,10 @@ async function callTelegramApi<T>(
     }
     return data;
   } catch (err) {
-    botLogger.error({ err, method }, `[Telegram API] Network failure calling ${method}`);
+    botLogger.error(
+      { err, method },
+      `[Telegram API] Network failure calling ${method}`
+    );
     return {
       ok: false,
       description: err instanceof Error ? err.message : String(err),

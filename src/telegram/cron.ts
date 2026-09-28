@@ -7,7 +7,6 @@ import {
 } from "../db/subscriptions";
 import {
   getClosestUtcSlotTime,
-  getCurrentUtcHour,
   getFormattedDateInTimezone,
 } from "../utils/date";
 import { cronLogger } from "../utils/logger";
@@ -70,11 +69,16 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
     `[Cron] Job received. Querying subscribers for UTC slot ${currentUtcTime}...`
   );
 
-  let subscriptions: Awaited<ReturnType<typeof getActiveSubscriptionsBySlotTime>> = [];
+  let subscriptions: Awaited<
+    ReturnType<typeof getActiveSubscriptionsBySlotTime>
+  > = [];
   try {
     subscriptions = await getActiveSubscriptionsBySlotTime(currentUtcTime);
   } catch (err) {
-    cronLogger.error({ err }, "[Cron] Failed to fetch active subscriptions from database");
+    cronLogger.error(
+      { err },
+      "[Cron] Failed to fetch active subscriptions from database"
+    );
     notifyAdmin({
       title: "Cron Database Query Failure",
       message: `Failed to fetch active subscriptions for slot ${currentUtcTime}`,
@@ -148,7 +152,9 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
     }
 
     const sub = subscriptions[i]!;
-    const chatLabel = sub.chat_title ? `"${sub.chat_title}" (${sub.chat_id})` : `${sub.chat_id}`;
+    const chatLabel = sub.chat_title
+      ? `"${sub.chat_title}" (${sub.chat_id})`
+      : `${sub.chat_id}`;
 
     try {
       const todayStr = getFormattedDateInTimezone(now, sub.timezone);
@@ -184,7 +190,9 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
 
       if (res.ok) {
         successCount++;
-        cronLogger.info(`[Cron] [${i + 1}/${total}] Successfully delivered to ${chatLabel}`);
+        cronLogger.info(
+          `[Cron] [${i + 1}/${total}] Successfully delivered to ${chatLabel}`
+        );
       } else {
         failedCount++;
         cronLogger.warn(
@@ -208,7 +216,10 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
       await new Promise((resolve) => setTimeout(resolve, 40));
     } catch (err) {
       failedCount++;
-      cronLogger.error({ err }, `[Cron] Exception while broadcasting to ${chatLabel}`);
+      cronLogger.error(
+        { err },
+        `[Cron] Exception while broadcasting to ${chatLabel}`
+      );
     }
   }
 

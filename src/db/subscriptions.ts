@@ -235,8 +235,12 @@ export async function getSubscriptionStats(): Promise<{
   const sql = getDb();
   const [totalActiveRows, totalInactiveRows, typeRows, langRows] =
     await Promise.all([
-      sql<{ count: string }[]>`SELECT count(*)::text FROM telegram_subscriptions WHERE is_active = true`,
-      sql<{ count: string }[]>`SELECT count(*)::text FROM telegram_subscriptions WHERE is_active = false`,
+      sql<
+        { count: string }[]
+      >`SELECT count(*)::text FROM telegram_subscriptions WHERE is_active = true`,
+      sql<
+        { count: string }[]
+      >`SELECT count(*)::text FROM telegram_subscriptions WHERE is_active = false`,
       sql<{ chat_type: string; count: string }[]>`
         SELECT chat_type, count(*)::text FROM telegram_subscriptions WHERE is_active = true GROUP BY chat_type
       `,
@@ -258,5 +262,3 @@ export async function getSubscriptionStats(): Promise<{
     })),
   };
 }
-
-

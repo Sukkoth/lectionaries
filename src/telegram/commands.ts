@@ -124,7 +124,9 @@ async function resolveCommandChat(
 /**
  * Handles /start and /help commands.
  */
-export async function handleStartCommand(message: TelegramMessage): Promise<void> {
+export async function handleStartCommand(
+  message: TelegramMessage
+): Promise<void> {
   const chatId = message.chat.id;
   const chatType = message.chat.type;
   const chatTitle = message.chat.title || message.from?.first_name || null;
@@ -157,12 +159,18 @@ export async function handleSettingsCommand(
 ): Promise<void> {
   const chatId = message.chat.id;
 
-  botLogger.info({ chatId, chatType: message.chat.type }, "Handling /settings command");
+  botLogger.info(
+    { chatId, chatType: message.chat.type },
+    "Handling /settings command"
+  );
 
   if (message.chat.type !== "private" && message.from) {
     const isAdmin = await isChatAdmin(chatId, message.from.id);
     if (!isAdmin) {
-      botLogger.warn({ chatId, userId: message.from.id }, "Unauthorized settings access attempt");
+      botLogger.warn(
+        { chatId, userId: message.from.id },
+        "Unauthorized settings access attempt"
+      );
       await sendMessage(
         chatId,
         "⚠️ Only administrators can configure bot settings for this group."
@@ -238,7 +246,9 @@ export async function handleTodayCommand(
 /**
  * Handles /app and /download commands providing the Google Play Store link.
  */
-export async function handleAppCommand(message: TelegramMessage): Promise<void> {
+export async function handleAppCommand(
+  message: TelegramMessage
+): Promise<void> {
   const chatId = message.chat.id;
   const playStoreUrl =
     "https://play.google.com/store/apps/details?id=com.sukkoth.eecmylectionary";

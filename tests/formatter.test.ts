@@ -46,9 +46,7 @@ describe("Telegram Scripture Message Formatter Suite", () => {
     const result = await buildDailyMessage("2026-09-11", "en", "esv");
 
     expect(result.hasContent).toBe(true);
-    expect(result.text).toContain(
-      "Daily Readings for Fri, September 11, 2026"
-    );
+    expect(result.text).toContain("Daily Readings for Fri, September 11, 2026");
     expect(result.text).toContain("New Year");
     expect(result.text).toContain("<blockquote>");
     expect(result.text).toContain("Malachi 4:1-6");
@@ -62,9 +60,7 @@ describe("Telegram Scripture Message Formatter Suite", () => {
     const result = await buildDailyMessage("2026-09-12", "en", "esv");
 
     expect(result.hasContent).toBe(true);
-    expect(result.text).toContain(
-      "Daily Reading for Sat, September 12, 2026"
-    );
+    expect(result.text).toContain("Daily Reading for Sat, September 12, 2026");
     expect(result.text).toContain("<blockquote>");
     expect(result.text).toContain("Thus the Lord has done for me");
     expect(result.text).toContain("</blockquote>");

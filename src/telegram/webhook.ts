@@ -1,6 +1,9 @@
 import type { Context } from "hono";
 import { TELEGRAM_WEBHOOK_SECRET } from "../config";
-import { deactivateSubscription, upsertSubscription } from "../db/subscriptions";
+import {
+  deactivateSubscription,
+  upsertSubscription,
+} from "../db/subscriptions";
 import { botLogger } from "../utils/logger";
 import { handleCallbackQuery } from "./callbacks";
 import { sendMessage } from "./client";
@@ -32,7 +35,10 @@ export async function handleTelegramWebhook(c: Context): Promise<Response> {
   try {
     update = await c.req.json();
   } catch (err) {
-    botLogger.warn({ err }, "Invalid JSON payload received at Telegram webhook");
+    botLogger.warn(
+      { err },
+      "Invalid JSON payload received at Telegram webhook"
+    );
     return c.json({ error: "Invalid JSON payload" }, 400);
   }
 
@@ -69,7 +75,10 @@ export async function handleTelegramWebhook(c: Context): Promise<Response> {
         }
       } else if (newStatus === "left" || newStatus === "kicked") {
         await deactivateSubscription(chat.id);
-        botLogger.info({ chatId: chat.id }, "Deactivated subscription for chat");
+        botLogger.info(
+          { chatId: chat.id },
+          "Deactivated subscription for chat"
+        );
       }
 
       return c.json({ ok: true });
