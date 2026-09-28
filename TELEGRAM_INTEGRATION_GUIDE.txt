@@ -1,0 +1,115 @@
+================================================================================
+           HOW TO SET UP THE DAILY LECTIONARY BOT IN YOUR CHANNEL OR GROUP
+================================================================================
+
+Welcome! This guide shows you how to add the Daily Lectionary Bot to your 
+Telegram Channel or Group to receive daily Bible readings and liturgical 
+calendars automatically every morning.
+
+You can customize everything (language, Bible version, and posting time) 
+privately with the bot without sending any commands or cluttering your channel!
+
+--------------------------------------------------------------------------------
+1. ADDING THE BOT TO YOUR TELEGRAM CHANNEL (Recommended)
+--------------------------------------------------------------------------------
+
+Follow these simple steps:
+
+Step 1: Open your Telegram Channel.
+Step 2: Tap the channel name at the top to open Channel Info.
+Step 3: Tap "Administrators", then tap "Add Administrator".
+Step 4: Search for the bot by its username and select it.
+Step 5: Make sure the permission "Post Messages" is turned ON.
+Step 6: Tap the checkmark to save.
+
+Done! The bot is now connected to your channel.
+
+
+--------------------------------------------------------------------------------
+2. ADDING THE BOT TO YOUR TELEGRAM GROUP
+--------------------------------------------------------------------------------
+
+Step 1: Open your Telegram Group.
+Step 2: Tap the group name at the top, then tap "Add Members".
+Step 3: Search for the bot by its username and add it.
+Step 4: (Optional but recommended) Promote the bot to Administrator so it can 
+        post reliably without message restrictions.
+
+Done! The bot will greet the group and start sharing daily readings.
+
+
+--------------------------------------------------------------------------------
+3. SILENT CONFIGURATION (How to customize from your private chat)
+--------------------------------------------------------------------------------
+
+You do NOT need to type commands inside your public channel. You can configure 
+your channel or group quietly from a private chat with the bot!
+
+Step 1: Open a private chat with the bot.
+Step 2: Tap START or send /start.
+Step 3: Send any of the configuration commands below, including your channel 
+        or group username (e.g., @my_church_channel):
+
+• Change Language for your channel:
+  /setlanguage @my_channel_username am
+  /setlanguage @my_channel_username om
+  /setlanguage @my_channel_username en
+
+• Change Bible Version for your channel:
+  /setversion @my_channel_username am54
+  /setversion @my_channel_username esv
+  /setversion @my_channel_username macqul
+
+• Change Daily Posting Time for your channel:
+  /settime @my_channel_username 06:00
+  /settime @my_channel_username 07:30
+  /settime @my_channel_username 08:30
+
+• Preview today's post for your channel:
+  /today @my_channel_username
+
+* Note: You must be an Administrator of the channel or group for the bot to 
+  accept your settings.
+
+
+--------------------------------------------------------------------------------
+4. CONFIGURING DIRECTLY INSIDE A GROUP
+--------------------------------------------------------------------------------
+
+If you prefer configuring inside a group, any group admin can send:
+
+• /settings     - Opens an interactive menu with buttons to change language, 
+                  version, and posting time.
+• /today        - Shows today's full Bible readings immediately.
+• /setlanguage  - Set language (e.g. /setlanguage am)
+• /setversion   - Set Bible version (e.g. /setversion am54)
+• /settime      - Set daily posting time (e.g. /settime 08:00)
+• /app          - Link to download the mobile app on Android.
+
+
+--------------------------------------------------------------------------------
+5. SUPPORTED LANGUAGES & BIBLE VERSIONS
+--------------------------------------------------------------------------------
+
+Supported Languages:
+• Amharic (code: am)
+• Afaan Oromoo (code: om)
+• English (code: en)
+• Kambaata (code: ktb)
+• Hadiyya (code: hdy)
+• Sidama (code: sidamo)
+• Tigrinya (code: ትግርኛ)
+
+Popular Bible Versions:
+• am54    - 1954 Amharic Bible (default for Amharic)
+• esv     - English Standard Version (default for English)
+• niv     - New International Version
+• macqul  - Macaafa Qulqulluu (Afaan Oromoo)
+• nasv    - New Amharic Standard Version
+
+Posting Times:
+• Times are set in 24-hour format in local Ethiopian Time (UTC+3 / EAT).
+• Choose any hour or half-hour: 06:00, 06:30, 07:00, 07:30, 08:00, 08:30, etc.
+• Default time: 08:30 in the morning.
+
+================================================================================

@@ -4,10 +4,11 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "bun run ./dist/server.js",
+    "start": "bun run scripts/set-webhook.ts && bun run ./dist/server.js",
     "dev": "bun --watch run server.ts | jq -R -r '. as $line | try fromjson catch $line'",
     "dev:raw": "bun --watch run server.ts",
     "dev:bot": "bun --watch run src/telegram/poll.ts",
+    "bot:set-webhook": "bun run scripts/set-webhook.ts",
     "db:migrate": "bun run src/db/migrate.ts",
     "build": "bun build ./server.ts --target bun --outdir ./dist && cp -r data dist/",
     "test": "bun test",
