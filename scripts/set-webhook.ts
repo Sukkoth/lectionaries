@@ -25,7 +25,7 @@ async function main() {
   let domain =
     customArg ||
     process.env.VERCEL_PROJECT_PRODUCTION_URL ||
-    process.env.WEBHOOK_URL
+    process.env.WEBHOOK_URL;
 
   if (!domain) {
     console.warn(
@@ -60,7 +60,9 @@ async function main() {
   );
 
   if (res.ok) {
-    console.log("✅ [Telegram Webhook Setup] Webhook successfully registered with Telegram!");
+    console.log(
+      "✅ [Telegram Webhook Setup] Webhook successfully registered with Telegram!"
+    );
   } else {
     console.error(
       `❌ [Telegram Webhook Setup] Failed to register webhook: ${res.description} (Error code: ${res.error_code})`
