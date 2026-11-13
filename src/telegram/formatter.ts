@@ -232,3 +232,96 @@ export async function buildDailyMessage(
     hasContent: true,
   };
 }
+
+/**
+ * Builds structured data ready for rendering into an image card.
+ */
+export async function getVerseCardData(
+  dateStr: string,
+  languageCode: string = "en",
+  versionCode: string = "esv"
+): Promise<import("../image/template").VerseCardData | null> {
+  const manifest = await loadManifest();
+  if (!manifest || manifest.years.length === 0) {
+    return null;
+  }
+
+  let matchedLang: ManifestLanguage | null = null;
+  let matchedVersion: ManifestVersion | null = null;
+
+  for (const y of manifest.years) {
+    for (const lang of y.languages) {
+      if (
+        lang.code.toLowerCase() === languageCode.toLowerCase() ||
+        lang.name.toLowerCase() === languageCode.toLowerCase()
+      ) {
+        matchedLang = lang;
+        matchedVersion =
+          lang.versions.find(
+            (v) => v.code.toLowerCase() === versionCode.toLowerCase()
+          ) ||
+          lang.versions[0] ||
+          null;
+        break;
+      }
+    }
+    if (matchedLang) break;
+  }
+
+  if (!matchedLang || !matchedVersion) {
+    return null;
+  }
+
+  let dayInfoItem: DayInfoItem | null = null;
+  try {
+    const dayInfoFile = Bun.file(join(DATA_DIR, matchedLang.dayInfo.path));
+    if (await dayInfoFile.exists()) {
+      const dayInfoData = (await dayInfoFile.json()) as DayInfoFile;
+      dayInfoItem = dayInfoData.dayInfo.find((d) => d.date === dateStr) || null;
+    }
+  } catch {
+    dayInfoItem = null;
+  }
+
+  let readings: ReadingItem[] = [];
+  try {
+    const readingsFile = Bun.file(join(DATA_DIR, matchedVersion.path));
+    if (await readingsFile.exists()) {
+      const readingsData = (await readingsFile.json()) as ReadingsFile;
+      readings = readingsData.readings
+        .filter((r) => r.date === dateStr)
+        .sort((a, b) => a.order - b.order);
+    }
+  } catch {
+    readings = [];
+  }
+
+  if (!dayInfoItem && readings.length === 0) {
+    return null;
+  }
+
+  const headerDate = formatLocalizedHeader(
+    dateStr,
+    matchedLang.code,
+    readings.length
+  );
+
+  return {
+    headerDate,
+    title: dayInfoItem?.title || null,
+    description: dayInfoItem?.description || null,
+    seasonColor: dayInfoItem?.seasonColor || null,
+    versionName: matchedVersion.name,
+    versionCode: matchedVersion.code,
+    readings: readings.map((r) => {
+      const plainText = formatScriptureText(r.text).replace(/\[\d+\]\s*/g, "");
+      const snippet =
+        plainText.length > 200 ? `${plainText.slice(0, 197)}...` : plainText;
+      return {
+        section: r.section,
+        reference: r.reference,
+        textSnippet: readings.length >= 3 ? null : snippet,
+      };
+    }),
+  };
+}

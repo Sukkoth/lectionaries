@@ -2,6 +2,7 @@ import { TELEGRAM_BOT_TOKEN } from "../config";
 import { botLogger } from "../utils/logger";
 import type {
   SendMessageOptions,
+  SendPhotoOptions,
   TelegramApiResponse,
   TelegramChat,
   TelegramChatMember,
@@ -73,6 +74,88 @@ export async function sendMessage(
     disable_web_page_preview: options?.disable_web_page_preview ?? true,
     reply_markup: options?.reply_markup,
   });
+}
+
+/**
+ * Sends a photo to a Telegram chat or channel using a Telegram file_id, URL, or raw Buffer.
+ */
+export async function sendPhoto(
+  chatId: number | string,
+  photo: string | Buffer,
+  options?: SendPhotoOptions
+): Promise<TelegramApiResponse<TelegramMessage>> {
+  if (typeof photo === "string") {
+    return callTelegramApi<TelegramMessage>("sendPhoto", {
+      chat_id: chatId,
+      photo,
+      caption: options?.caption,
+      parse_mode: options?.parse_mode || "HTML",
+      reply_markup: options?.reply_markup,
+    });
+  }
+
+  if (!TELEGRAM_BOT_TOKEN) {
+    botLogger.warn(
+      "[Telegram API] Attempted to call sendPhoto without TELEGRAM_BOT_TOKEN"
+    );
+    return {
+      ok: false,
+      description: "TELEGRAM_BOT_TOKEN is not configured",
+      error_code: 401,
+    };
+  }
+
+  const endpoint = `${TELEGRAM_API_BASE}/bot${TELEGRAM_BOT_TOKEN}/sendPhoto`;
+
+  try {
+    const formData = new FormData();
+    formData.append("chat_id", String(chatId));
+    formData.append(
+      "photo",
+      new Blob([photo], { type: "image/png" }),
+      "verse.png"
+    );
+
+    if (options?.caption) {
+      formData.append("caption", options.caption);
+    }
+    if (options?.parse_mode) {
+      formData.append("parse_mode", options.parse_mode);
+    } else {
+      formData.append("parse_mode", "HTML");
+    }
+    if (options?.reply_markup) {
+      formData.append("reply_markup", JSON.stringify(options.reply_markup));
+    }
+
+    const res = await fetch(endpoint, {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = (await res.json()) as TelegramApiResponse<TelegramMessage>;
+    if (!data.ok) {
+      botLogger.warn(
+        {
+          method: "sendPhoto",
+          errorCode: data.error_code,
+          description: data.description,
+        },
+        `[Telegram API] sendPhoto returned error: ${data.description}`
+      );
+    }
+    return data;
+  } catch (err) {
+    botLogger.error(
+      { err },
+      "[Telegram API] Network failure during sendPhoto multipart upload"
+    );
+    return {
+      ok: false,
+      description: err instanceof Error ? err.message : String(err),
+      error_code: 500,
+    };
+  }
 }
 
 /**
