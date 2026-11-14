@@ -20,6 +20,14 @@ export interface TelegramChat {
   last_name?: string;
 }
 
+export interface TelegramPhotoSize {
+  file_id: string;
+  file_unique_id: string;
+  width: number;
+  height: number;
+  file_size?: number;
+}
+
 export interface TelegramMessage {
   message_id: number;
   from?: TelegramUser;
@@ -27,6 +35,8 @@ export interface TelegramMessage {
   date: number;
   chat: TelegramChat;
   text?: string;
+  caption?: string;
+  photo?: TelegramPhotoSize[];
 }
 
 export interface TelegramChatMember {
@@ -75,6 +85,12 @@ export interface TelegramUpdate {
 export interface SendMessageOptions {
   parse_mode?: "HTML" | "MarkdownV2" | "Markdown";
   disable_web_page_preview?: boolean;
+  reply_markup?: TelegramInlineKeyboardMarkup;
+}
+
+export interface SendPhotoOptions {
+  caption?: string;
+  parse_mode?: "HTML" | "MarkdownV2" | "Markdown";
   reply_markup?: TelegramInlineKeyboardMarkup;
 }
 

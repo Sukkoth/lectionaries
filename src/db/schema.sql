@@ -22,3 +22,13 @@ ALTER TABLE telegram_subscriptions DROP COLUMN IF EXISTS post_hour_utc;
 CREATE INDEX IF NOT EXISTS idx_active_post_time ON telegram_subscriptions (post_time_utc) WHERE is_active = true;
 DROP INDEX IF EXISTS idx_active_post_hour;
 
+-- Image cache for generated scripture verse cards
+CREATE TABLE IF NOT EXISTS verse_image_cache (
+  date TEXT NOT NULL,
+  language_code TEXT NOT NULL,
+  version_code TEXT NOT NULL,
+  telegram_file_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  PRIMARY KEY (date, language_code, version_code)
+);
+

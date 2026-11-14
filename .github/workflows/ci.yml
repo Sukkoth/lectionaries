@@ -11,6 +11,24 @@ jobs:
     name: Lint, Type Check & Test
     runs-on: ubuntu-latest
 
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_DB: lectionaries_test
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgrespassword
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      DATABASE_URL: postgres://postgres:postgrespassword@localhost:5432/lectionaries_test
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,6 +40,9 @@ jobs:
 
       - name: Install dependencies
         run: bun install
+
+      - name: Run Database Migrations
+        run: bun run src/db/migrate.ts
 
       - name: Check Formatting (Prettier)
         run: bun run format:check

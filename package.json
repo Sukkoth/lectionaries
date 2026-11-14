@@ -11,7 +11,7 @@
     "bot:set-webhook": "bun run scripts/set-webhook.ts",
     "db:migrate": "bun run src/db/migrate.ts",
     "build": "bun build ./server.ts --target bun --outdir ./dist && cp -r data dist/",
-    "test": "bun test",
+    "test": "PORT=0 bun test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
@@ -29,9 +29,11 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "hono": "^4.13.3",
     "kenat": "^1.1.7",
     "pino": "^9.6.0",
-    "postgres": "^3.4.5"
+    "postgres": "^3.4.5",
+    "satori": "^0.63.2"
   }
 }

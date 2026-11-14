@@ -15,11 +15,14 @@ export function getDb(): Sql {
       );
     }
 
+    const isLocalhost =
+      DATABASE_URL.includes("localhost") || DATABASE_URL.includes("127.0.0.1");
+
     sqlInstance = postgres(DATABASE_URL, {
       max: 10,
       idle_timeout: 20,
       connect_timeout: 10,
-      ssl: { rejectUnauthorized: false },
+      ssl: isLocalhost ? false : { rejectUnauthorized: false },
     });
   }
 

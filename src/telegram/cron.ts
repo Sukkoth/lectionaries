@@ -5,14 +5,16 @@ import {
   getActiveSubscriptionsBySlotTime,
   migrateChatId,
 } from "../db/subscriptions";
+import { getCachedVerseImage, saveCachedVerseImage } from "../db/image-cache";
+import { renderVerseCard } from "../image/renderer";
 import {
   getClosestUtcSlotTime,
   getFormattedDateInTimezone,
 } from "../utils/date";
 import { cronLogger } from "../utils/logger";
 import { notifyAdmin } from "../utils/notifier";
-import { sendMessage } from "./client";
-import { buildDailyMessage } from "./formatter";
+import { sendMessage, sendPhoto } from "./client";
+import { buildDailyMessage, getVerseCardData } from "./formatter";
 
 /**
  * Checks if a Telegram API error indicates permanent loss of access to a chat.
@@ -114,6 +116,8 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
     Promise<{ text: string; hasContent: boolean }>
   >();
 
+  const imageCache = new Map<string, Promise<string | Buffer | null>>();
+
   const getCachedMessage = (
     dateStr: string,
     lang: string,
@@ -127,6 +131,44 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
       messageCache.set(key, buildDailyMessage(dateStr, lang, ver));
     }
     return messageCache.get(key)!;
+  };
+
+  const getOrGenerateImage = (
+    dateStr: string,
+    lang: string,
+    ver: string
+  ): Promise<string | Buffer | null> => {
+    const key = `${dateStr}:${lang}:${ver}`;
+    if (!imageCache.has(key)) {
+      imageCache.set(
+        key,
+        (async () => {
+          try {
+            const cachedFileId = await getCachedVerseImage(dateStr, lang, ver);
+            if (cachedFileId) {
+              return cachedFileId;
+            }
+
+            const cardData = await getVerseCardData(dateStr, lang, ver);
+            if (!cardData) {
+              return null;
+            }
+
+            cronLogger.info(
+              `[Cron] Generating verse image card for date=${dateStr}, lang=${lang}, ver=${ver}`
+            );
+            return await renderVerseCard(cardData);
+          } catch (err) {
+            cronLogger.error(
+              { err },
+              "[Cron] Error during verse card generation"
+            );
+            return null;
+          }
+        })()
+      );
+    }
+    return imageCache.get(key)!;
   };
 
   const total = subscriptions.length;
@@ -175,7 +217,41 @@ export async function handleTelegramCron(c: Context): Promise<Response> {
         `[Cron] [${i + 1}/${total}] Sending daily reading to ${chatLabel} (${sub.chat_type}, lang: ${sub.language_code})...`
       );
 
-      let res = await sendMessage(sub.chat_id, text);
+      const imagePayload = await getOrGenerateImage(
+        todayStr,
+        sub.language_code,
+        sub.version_code
+      );
+
+      let res: import("./types").TelegramApiResponse<
+        import("./types").TelegramMessage
+      >;
+
+      if (imagePayload) {
+        res = await sendPhoto(sub.chat_id, imagePayload, {
+          caption: text,
+          parse_mode: "HTML",
+        });
+        if (res.ok && res.result?.photo && res.result.photo.length > 0) {
+          const fileId = res.result.photo[res.result.photo.length - 1]!.file_id;
+          if (Buffer.isBuffer(imagePayload)) {
+            imageCache.set(
+              `${todayStr}:${sub.language_code}:${sub.version_code}`,
+              Promise.resolve(fileId)
+            );
+            saveCachedVerseImage(
+              todayStr,
+              sub.language_code,
+              sub.version_code,
+              fileId
+            ).catch(() => {});
+          }
+        } else if (!res.ok) {
+          res = await sendMessage(sub.chat_id, text);
+        }
+      } else {
+        res = await sendMessage(sub.chat_id, text);
+      }
 
       if (!res.ok && res.error_code === 429) {
         const retryAfterSec = res.parameters?.retry_after || 2;
