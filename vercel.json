@@ -2,7 +2,7 @@
   "bunVersion": "1.x",
   "functions": {
     "server.ts": {
-      "includeFiles": "data/**"
+      "includeFiles": "{data/**,assets/**}"
     }
   }
 }
