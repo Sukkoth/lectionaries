@@ -10,7 +10,8 @@ import {
 import { botLogger } from "../utils/logger";
 import { answerCallbackQuery, isChatAdmin, sendMessage } from "./client";
 import { getSettingsKeyboard } from "./commands";
-import { buildDailyMessage, loadManifest } from "./formatter";
+import { deliverDailyReading } from "./delivery";
+import { loadManifest } from "./formatter";
 import type {
   TelegramCallbackQuery,
   TelegramInlineKeyboardButton,
@@ -222,8 +223,7 @@ export async function handleCallbackQuery(
     );
 
     const todayStr = getFormattedDateInTimezone(new Date(), tz);
-    const result = await buildDailyMessage(todayStr, lang, ver);
-    await sendMessage(chatId, result.text);
+    await deliverDailyReading(chatId, todayStr, lang, ver);
     return;
   }
 

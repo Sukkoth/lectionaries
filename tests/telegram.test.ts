@@ -40,6 +40,32 @@ describe("Telegram Endpoint Integration Tests", () => {
     expect(data.ok).toBe(true);
   }, 15000);
 
+  test("POST /api/telegram/webhook handles callback_query action:today", async () => {
+    const req = new Request("http://localhost/api/telegram/webhook", {
+      method: "POST",
+      headers: baseHeaders,
+      body: JSON.stringify({
+        update_id: 100002,
+        callback_query: {
+          id: "cb_preview_123",
+          from: { id: 123456, is_bot: false, first_name: "Tester" },
+          message: {
+            message_id: 1,
+            date: 1700000000,
+            chat: { id: 123456, type: "private" },
+            text: "Settings",
+          },
+          data: "action:today",
+        },
+      }),
+    });
+
+    const res = await app.fetch(req);
+    expect(res.status).toBe(200);
+    const data = (await res.json()) as { ok: boolean };
+    expect(data.ok).toBe(true);
+  }, 15000);
+
   test("GET /api/telegram/cron endpoint responds appropriately", async () => {
     const req = new Request("http://localhost/api/telegram/cron", {
       method: "GET",

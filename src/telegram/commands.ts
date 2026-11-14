@@ -1,20 +1,18 @@
 import { ADMIN_CHAT_ID } from "../config";
-import { getCachedVerseImage, saveCachedVerseImage } from "../db/image-cache";
 import {
   getSubscription,
   getSubscriptionStats,
   updateSubscriptionSettings,
   upsertSubscription,
 } from "../db/subscriptions";
-import { renderVerseCard } from "../image/renderer";
 import {
   formatUtcToLocalTime,
   getFormattedDateInTimezone,
   parseLocalTimeToUtc,
 } from "../utils/date";
 import { botLogger } from "../utils/logger";
-import { getChat, isChatAdmin, sendMessage, sendPhoto } from "./client";
-import { buildDailyMessage, getVerseCardData } from "./formatter";
+import { getChat, isChatAdmin, sendMessage } from "./client";
+import { deliverDailyReading } from "./delivery";
 import type { TelegramInlineKeyboardMarkup, TelegramMessage } from "./types";
 
 /**
@@ -232,50 +230,9 @@ export async function handleTodayCommand(
   const tz = sub?.timezone || "Africa/Addis_Ababa";
 
   const todayStr = getFormattedDateInTimezone(new Date(), tz);
-  const result = await buildDailyMessage(todayStr, lang, ver);
-
   const destinationChatId = isExternalTarget ? targetChatId : message.chat.id;
 
-  let imageDelivered = false;
-
-  try {
-    let cachedFileId = await getCachedVerseImage(todayStr, lang, ver);
-    if (!cachedFileId) {
-      const cardData = await getVerseCardData(todayStr, lang, ver);
-      if (cardData) {
-        const pngBuffer = await renderVerseCard(cardData);
-        const photoRes = await sendPhoto(destinationChatId, pngBuffer, {
-          caption: result.text,
-          parse_mode: "HTML",
-        });
-        if (
-          photoRes.ok &&
-          photoRes.result?.photo &&
-          photoRes.result.photo.length > 0
-        ) {
-          const fileId =
-            photoRes.result.photo[photoRes.result.photo.length - 1]!.file_id;
-          saveCachedVerseImage(todayStr, lang, ver, fileId).catch(() => {});
-          cachedFileId = fileId;
-          imageDelivered = true;
-        }
-      }
-    } else {
-      const photoRes = await sendPhoto(destinationChatId, cachedFileId, {
-        caption: result.text,
-        parse_mode: "HTML",
-      });
-      if (photoRes.ok) {
-        imageDelivered = true;
-      }
-    }
-  } catch (err) {
-    botLogger.error({ err }, "Failed to deliver verse photo card");
-  }
-
-  if (!imageDelivered) {
-    await sendMessage(destinationChatId, result.text);
-  }
+  await deliverDailyReading(destinationChatId, todayStr, lang, ver);
 
   if (isExternalTarget) {
     await sendMessage(
