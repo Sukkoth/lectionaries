@@ -2,6 +2,7 @@ import { describe, expect, test } from "bun:test";
 import {
   buildDailyMessage,
   formatScriptureText,
+  getVerseCardData,
 } from "../src/telegram/formatter";
 import { formatLocalizedHeader } from "../src/utils/localized-date";
 
@@ -40,6 +41,9 @@ describe("Telegram Scripture Message Formatter Suite", () => {
     expect(formatted).not.toContain("<v>");
     expect(formatted).not.toContain("<red>");
     expect(formatted).not.toContain("<i>");
+
+    const adjacentReds = "<red>Hear:</red><red>with the measure</red>";
+    expect(formatScriptureText(adjacentReds)).toBe("Hear: with the measure");
   });
 
   test("buildDailyMessage with >= 3 readings includes header with 'Daily Readings for' and references in blockquote", async () => {
@@ -72,5 +76,29 @@ describe("Telegram Scripture Message Formatter Suite", () => {
 
     expect(result.hasContent).toBe(false);
     expect(result.text).toContain("No readings scheduled");
+  });
+
+  test("getVerseCardData provides complete unabridged textSnippet without truncation for single reading days", async () => {
+    const cardData = await getVerseCardData("2026-11-14", "en", "esv");
+
+    expect(cardData).not.toBeNull();
+    expect(cardData?.readings.length).toBe(1);
+    const reading = cardData!.readings[0]!;
+    expect(reading.reference).toBe("Mark 4:24-25");
+    expect(reading.textSnippet).not.toBeNull();
+    expect(reading.textSnippet).toContain(
+      "even what he has will be taken away"
+    );
+    expect(reading.textSnippet!.endsWith("...")).toBe(false);
+  });
+
+  test("getVerseCardData sets textSnippet to null for multi-reading days", async () => {
+    const cardData = await getVerseCardData("2026-09-11", "en", "esv");
+
+    expect(cardData).not.toBeNull();
+    expect(cardData?.readings.length).toBeGreaterThanOrEqual(3);
+    for (const r of cardData!.readings) {
+      expect(r.textSnippet).toBeNull();
+    }
   });
 });

@@ -81,6 +81,8 @@ export function formatScriptureText(rawText: string): string {
     (_match, v) => `<b>[${v.trim()}]</b> `
   );
 
+  result = result.replace(/<\/red>\s*<red>/gi, " ");
+
   result = result.replace(
     /<red>([\s\S]*?)<\/red>/gi,
     (_match, content) => content
@@ -315,12 +317,10 @@ export async function getVerseCardData(
     versionCode: matchedVersion.code,
     readings: readings.map((r) => {
       const plainText = formatScriptureText(r.text).replace(/\[\d+\]\s*/g, "");
-      const snippet =
-        plainText.length > 200 ? `${plainText.slice(0, 197)}...` : plainText;
       return {
         section: r.section,
         reference: r.reference,
-        textSnippet: readings.length >= 3 ? null : snippet,
+        textSnippet: readings.length >= 3 ? null : plainText,
       };
     }),
   };

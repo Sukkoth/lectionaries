@@ -102,10 +102,13 @@ function getVerseTypography(length: number): {
   if (length <= 220) {
     return { fontSize: "44px", lineHeight: 1.45, marginBottom: "28px" };
   }
-  if (length <= 320) {
+  if (length <= 340) {
     return { fontSize: "38px", lineHeight: 1.5, marginBottom: "24px" };
   }
-  return { fontSize: "32px", lineHeight: 1.55, marginBottom: "20px" };
+  if (length <= 520) {
+    return { fontSize: "32px", lineHeight: 1.5, marginBottom: "20px" };
+  }
+  return { fontSize: "28px", lineHeight: 1.45, marginBottom: "18px" };
 }
 
 /**
