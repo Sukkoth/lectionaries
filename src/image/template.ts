@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import { ASSETS_DIR } from "../config";
 
 export interface SatoriVNode {
   type: string;
@@ -64,7 +65,7 @@ function getBackgroundImageUri(): string {
   }
 
   try {
-    const filePath = join(process.cwd(), "assets", "backgrounds", fileName);
+    const filePath = join(ASSETS_DIR, "backgrounds", fileName);
     const buf = readFileSync(filePath);
     const dataUri = `data:image/jpeg;base64,${buf.toString("base64")}`;
     backgroundCache.set(fileName, dataUri);

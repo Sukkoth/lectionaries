@@ -10,7 +10,7 @@
     "dev:bot": "bun --watch run src/telegram/poll.ts",
     "bot:set-webhook": "bun run scripts/set-webhook.ts",
     "db:migrate": "bun run src/db/migrate.ts",
-    "build": "bun build ./server.ts --target bun --outdir ./dist && cp -r data dist/",
+    "build": "bun build ./server.ts --target bun --outdir ./dist && cp -r data dist/ && cp -r assets dist/",
     "test": "PORT=0 bun test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

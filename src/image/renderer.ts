@@ -2,6 +2,7 @@ import { Resvg } from "@resvg/resvg-js";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import satori from "satori";
+import { ASSETS_DIR } from "../config";
 import { buildCardVNode, type VerseCardData } from "./template";
 
 let fontsCache:
@@ -16,7 +17,7 @@ function loadFonts() {
     return fontsCache;
   }
 
-  const fontsDir = join(process.cwd(), "assets", "fonts");
+  const fontsDir = join(ASSETS_DIR, "fonts");
 
   const notoRegular = readFileSync(join(fontsDir, "NotoSans-Regular.ttf"));
   const notoBold = readFileSync(join(fontsDir, "NotoSans-Bold.ttf"));

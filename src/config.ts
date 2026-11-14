@@ -26,6 +26,39 @@ const resolveDataDir = (): string => {
 
 export const DATA_DIR = resolveDataDir();
 
+/**
+ * Resolves directory path for graphic assets (fonts and backgrounds).
+ */
+const resolveAssetsDir = (): string => {
+  if (process.env.ASSETS_DIR) {
+    return resolve(process.env.ASSETS_DIR);
+  }
+
+  const rootAssets = resolve(process.cwd(), "assets");
+  if (existsSync(rootAssets)) {
+    return rootAssets;
+  }
+
+  const distAssets = resolve(process.cwd(), "dist/assets");
+  if (existsSync(distAssets)) {
+    return distAssets;
+  }
+
+  const metaDirAssets = resolve(import.meta.dir || "", "assets");
+  if (existsSync(metaDirAssets)) {
+    return metaDirAssets;
+  }
+
+  const parentMetaDirAssets = resolve(import.meta.dir || "", "../assets");
+  if (existsSync(parentMetaDirAssets)) {
+    return parentMetaDirAssets;
+  }
+
+  return rootAssets;
+};
+
+export const ASSETS_DIR = resolveAssetsDir();
+
 export const CORS_HEADERS: Record<string, string> = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
